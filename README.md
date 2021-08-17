@@ -1,6 +1,8 @@
 <a name=top><p>&nbsp;</p>
 <a  href="https://git.io/sin21"><img width=1000 src="https://github.com/txt/sin21/blob/main/docs/img/sinless.png"></a>       
 
+  
+ 
 Problem dont know how to teach ethics (yet). so one of your delvierables at ene dof semsester is a syllaus for a better version of this ssubject
 
 XXX several secretet to sinless
@@ -77,6 +79,9 @@ just get production and pollution without clean up.
 but  you  know this, you learned in childhood. remember, the
 cat in the hat did do disrupt, then we did clean up. he had tools
 for clean up. do  you?
+                
+<img width="776" alt="image" src="https://user-images.githubusercontent.com/29195/129815422-5a3be6e9-352d-46ad-9dd8-3f0d472a4b14.png">
+
 
 ## Theory (to  be covered in lectures)
 
