@@ -32,7 +32,7 @@ create or draw or write or learn, not refresh just one more time."<br clear=all>
 |Explanation| 1. The explanation tower of Balel<br>2. Abduction: the core of explanation|
 |SE for AI| 1. Build your own AI (hint: easy if you use keys)<br>2.  Parametric and non-parametric reasoning (the wondeful world of symbols).<br>3. The data structures inside AI (Row, Rows, Num, Sym, etc).<br> 4. Data mining (divide the space).<br>5. Optimization (build bridges within the space).|
 |Secrets of AI systems| 1. Data balancing.<br> 2. Keys: most systems controlled by just a few variables. Hence, explaining or controlling those systems  a just a matter of controlling the keys. <br>3. Hyperparameter optimization: if you build to optimize criteria C1, then your score on some other criteria (C2) is a random variable. Solution: build while optimizing for _all_ the criteria you care about.|
-|Secrets of optimization |1. Can optimize non-numeric systems.<br>2. Multi-objective optimization (easier than you think; using data mining).<br>3. The great secret: optimization = data mining.|
+|Secrets of optimization |1. Can optimize non-numeric systems.<br>2. Multi-objective optimization (easier than you think; using data mining).<br>3. The great secret: optimization = data mining.|. 
 
 
 
@@ -44,18 +44,19 @@ Seek summaries of data, not endless streams of irrelevant detail.
 A protest: tired of my work being in organizations that do not offer
 clean up for the mess they make. BTW, 
 
-I seek the other ha;f of disrupt cultre.
+I seek the other half of disrupt cultre.
 
 - Nothing wrong with a little
 disrupt. 
 - Disrupt = innovation = opportunity to make things better.
-but an organization, and a society, that endorses disrupt also needs
+-  But if you broke it, you gotta fix it.  Any organization, or society, that endorses disrupt also needs
 to endorse support actions for curtailing bad disrupt and supporting
-the unfortunates effected negatively by that  disrupt. Otherwise, we
+the unfortunates effected negatively by that  disrupt. 
+- Otherwise, we
 just get production and pollution without clean up. 
 
-but  you  know this, you learned in childhood. remember, the
-cat in the hat did do disrupt, then we did clean up. he had tools
+But  you  know this, you learned in childhood. Remember, the
+cat in the hat did do disrupt, then he did clean up. He had tools
 for clean up. do  you?
                 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/29195/129815422-5a3be6e9-352d-46ad-9dd8-3f0d472a4b14.png">
