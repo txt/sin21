@@ -1,6 +1,10 @@
 [home](/README.md)
 
+# Introduction to Sinless Engineering
 
+Not sin=zero
+
+But sin less that what you are doing now.
 
 ## Why do this subject?
 
@@ -11,7 +15,8 @@
 - Cause it is the right thing to do
   - Software rules the  world, sometimes for good, often for bad.
     Time to change  that.
-  - But we  are  software engineers:
+  -  <img src="https://user-images.githubusercontent.com/29195/129940639-2c81fd30-6aad-49a0-a105-d11dd4aec25e.png" align=right width=300>
+But we  are  software engineers:
     - So we should rule the  software, not the other way  around
     - "We believe that ethical technology is technology that works for
 you," said Tim Cook, CEO, Apple. "It's technology that helps you sleep, not keeps
@@ -19,7 +24,7 @@ you up. It tells you when you've had enough. It gives you space to
 create or draw or write or learn, not refresh just one more time."
 
 - Cause of the technology that you will learn
-   ideas
+   such.. wonderful... ideas
 
 | idea | notes |
 |------|-------|
