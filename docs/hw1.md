@@ -6,7 +6,7 @@
 ## Hw1
 
 
-Set up for coding. Your repo is your resume.
+Set up for coding. Your repo is your resume. Convince  me that  you are proud of your product.
 
 - Add [bling](#bling)
 - Add [the other things](#and-the-rest)
