@@ -37,65 +37,13 @@ create or draw or write or learn, not refresh just one more time."
 
 | idea | notes |
 |------|-------|
+|New kind of SE, AI| Fairness aware.<br>Massive future growth industry.|
 | Software 2.0 |Care and feeding of optimizers<br>  Numerical and non-numerical optimization|
 | Software fairness testing | Disastrous  new results.<br> How fix them|
 |Secrets of AI systems| Data balancing.<br> Keys: most systems controlled by just a few variables. Hence, explaining or controlling those systems  a just a matter of controlling the keys. <br>Hyperparamter optimization: if you build to optimize criteria C1, then your score on some other criteria (C2) is a random variable. Solution: build while optimizing for _all_ the criteria you care about.|
+|Explanation| The explanation tower of Balel<br>Abduction: the core of explanation|
+|SE for AI| Build your own AI (hint: easy if you use keys)<br>The data structures inside AI (Row, Rows, Num, Sym, etc).<br> Data mining (divide the space).<br>Optimization (build bridges within the space).<br>Multi-objective optimization (easier than you think; using data mining).<br>The great secret: optimization = data mining.|
 
-
-    - Simplifying fairness
-  - new  tools:  
-       - keys
-       - hyperparameter optionzation: 
-         - of course if  we build for criteria1, we 
-           may  fail by some other  criteria2.
-         - so  lets build for crtiria 1+2
-  - simplifying explanation
-    - don't say explain, say abduct
-    - simplifying  inference (with keys)
-        - keys. many systems  controlled by just a few
-        - semi-supervised learning. contrast sets
-        - from a  data perspective, most details don't matter
-          - range, feature, instance selection
-          -  LACE2
-        - statistically, most of our nuances  don't matter
-          - parametric (e.g. ttest, hedges)
-          - nonparametric (e.g. bootstrap, cliffsdelta)
-          - procedures:
-            - w/l/t :  don't use
-            - recursively cluster, use stats as stopping rule (scott knot, usually
-              done  with  anova)
-  - simplifying data mining
-     - entropy, variance,  expected value
-     - tables  have rows and columns
-       - `sym`bolic (a.k.a. = !=
-         -  mid,var =  mode, entropy.
-         - dist = 0 if x==y else 1
-       - `num`eric (a.k.a. ratio)  (-,+,/,\*,&lt;,>)
-         - mid,var =  mode, standard  deviation
-           - compute from sorted list.
-             - all gaussuans are  z-curves
-             - z goes .5 at 1.28. so z=1 at 2*1.26 = 2.56
-         - dist = normalize, the (sum(delta<sup>p</sup>))<sup>1/p</sup>
-           - random projections, cosine rule, 
-       - roles
-          - dependent and  independent
-          - klass, objective (like, hate)
-          - skip
-          - named csv format
-     - effect size
-     - discretization (split, merge)
-     - recall, precision, pf, etc etc
-     - instance-based: knn
-     - model-based:
-       - statisical: bayes
-       - decision lists: FFTrees
-       - trees
-  - simplifying  optimization
-     - less than  ( &lt;, bdom, code effect  size, bootstrap)
-         -   NGSGA-II: a patch  on bdom 
-     - multi objective optimization. sa, ga, local search, de, Pareto, decomposition# sin21
-     - DUO (data  mining as optimization) 
-  
 
 ## Why am I teaching this subject?
 
