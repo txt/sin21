@@ -82,9 +82,16 @@ I think I made things worse. Right now, me and my grad students can
 
 
 Worse yet, 
-- Can asess the fariness of software, if we can access all your data. But once we move to the age of peeking (semi-supervised learning), you can lie to me.
+- Can asess the fariness of software, if we can access all your data.
+-  But once we move to the age of peeking (semi-supervised learning), you can lie to me.
+-  All my semi-supervised peeking tricks mean that I'm only look at small parts of the total system.
+-  And you can distinguish my approxiate queries from actual data.
+-  
 
-- 
+<img src="https://user-images.githubusercontent.com/29195/129940131-77a394eb-9387-44f7-afbc-dd8833635b72.png" width=350>
+<img src="https://user-images.githubusercontent.com/29195/129939923-a1bbd465-40df-459f-abd6-2f96a70e5525.png" width=350>
+
+
 in order to build an  
 
 Yeah, right.
