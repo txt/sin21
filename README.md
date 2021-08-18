@@ -34,19 +34,20 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <p>Your  task...
 
 <ol>
-<li>Build an  AI
-<li>Build it "better"
+<li>Build an AI;
+<li>Build it "better".
 </ol></p>
 <p>
-Where "better" means:
-<ol>
-<li>Faster, or ...
-<li>more general or ...
-<li>simpler or ...
-<li>explicable or ...
-<li>fairer or ...
-<li>makes conclusions using less data.
-</ol></p>
+But what does "better" means?
+Faster?
+More general?
+Simpler?
+More explicable?
+Fairer?
+Makes conclusions using less data?
+</p>
+<p>
+Well lets talk about that...</p>
 
 
 </td>
@@ -70,20 +71,16 @@ Where "better" means:
 </td>
 <td valign=top>
 Aug 25, Homework 1<br>
-Sept 1, Homework 2 <br>
-Sept 8, Homework 3<br>
-Sept 15, Homework 4<br>
-Sept 22, Homework 5<br>
-Sept 29, Homework 6<br>
-Oct  6, Homework 7<br>
-Oct  13, Homework 8<br>
+Sep 01, Homework 2 <br>
+Sep 08, Homework 3<br>
+Sep 15, Homework 4<br>
+Sep 22, Homework 5<br>
+Sep 29, Homework 6<br>
+Oct 06, Homework 7<br>
+Oct 13, Homework 8<br>
 Oct 20, Mid-term<br>
-Tbd,  Homework 6<br>
-Sept 30, <a href="docs/proj1.md">Project 1</a><br>
-Oct 5, Mid-term<br>
-Nov 4, Project 2<br>
-Nov 29, Project 3<br>
-Dec 3, "Exam" 
+Nov 24, Presentations<br>
+Nov 26, Report<br>
 </td>
 </tr>
 
