@@ -6,8 +6,8 @@
 <a href="https://github.com/txt/sin21/blob/master/docs/syllabus.md#top">syllabus</a> ::
 <a href="https://github.com/txt/sin21/blob/master/docs/syllabus.md#timetable">timetable</a> ::
 <a href="https://docs.google.com/spreadsheets/d/1n0zHiZlVYkLAEg5Lj1CVaLSEaeNy8iYjw8IMWYWs4Tk/edit?usp=sharing">groups</a> ::
-moodle <a href="https://moodle-courses2122.wolfware.ncsu.edu/course/view.php?id=3211">591</a> ::
-       <a href="https://moodle-courses2122.wolfware.ncsu.edu/course/view.php?id=3211">791</a> ::
+moodle(<a href="https://moodle-courses2122.wolfware.ncsu.edu/course/view.php?id=3211">591</a>,
+<a href="https://moodle-courses2122.wolfware.ncsu.edu/course/view.php?id=3211">791</a>) ::
 video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=a5998f03-01df-4c6c-91c1-ad80003f3c7c">tbd</a> ::
 <a href="https://github.com/txt/sin21/blob/master/LICENSE.md#top">&copy; 2021</a>
 <br>
@@ -15,189 +15,65 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 
   
+<table width="100%" border=0 align=center>
+<tr>
+<td></td>
+<td align=center width=200><img src="docs/img/lectures.gif"></td>
+<td align=center><img           src="docs/img/review.gif"></td>
+<td align=center width=200><img width=64 src="docs/img/time.png"></td>
+</tr>
+<tr>
+<td></td>
+<td align=center><b>Lectures</b></td>
+</td><td align=center><b>Review </td>
+<td align=center><b>Timetable</b> </td>
+</tr>
+<tr>
+<td>
+
+3 questions:
+
+<ol>
+<li>Can you write software that anyone  else would want to  use and maintain?</li>
+<li>Do you know the state-of-the-art in SE?</li>
+<li>What is an ethical approach  to  SE?</li>
+</ol>
+
+
+</td>
+<td valign=top  xwidth="100px">
+
+<!-- -------------------------------- -->
+<dl>
+  <dt>
+    Introduction:
+  </dt>
+  <dd>
+    <a href="docs/00hello.md">Hello</a>, <br>
+    <a href="docs/syllabus.md">Syllabus</a>
+  </dd>
+</dl>
+
+<!-- -------------------------------- -->
+
+<td align=center   valign=top xwidth="100px">
+<img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
  
-Problem dont know how to teach ethics (yet). so one of your delvierables at ene dof semsester is a syllaus for a better version of this ssubject
+</td>
+<td valign=top>
+Aug 26, Homework 1<br>
+Sept 2, Homework 2 <br>
+Sept 9, Homework 3<br>
+Tbd,  Homework 4<br>
+Tbd,  Homework 5<br>
+Tbd,  Homework 6<br>
+Sept 30, <a href="docs/proj1.md">Project 1</a><br>
+Oct 5, Mid-term<br>
+Nov 4, Project 2<br>
+Nov 29, Project 3<br>
+Dec 3, "Exam" 
+</td>
+</tr>
 
-XXX several secretet to sinless
-- suvodep: may metrics eman the same
-- EU, Msoft, IEEE: often come down to transparacey
-  - and we can tidy up decades of work on that. abduction. keys (minimal environments). simpler data mining
-- HPO for mdoel generation
+</table>
 
-<img align=right width=400 src="https://media.istockphoto.com/photos/webpage-under-construction-picture-id592021466">
-  
-Todo: balancing, keys, rule-based programming
-
-
-       -=-        “A saint is not someone who never sins, 
-    (\  _  /)      but one who sins less and less frequently."
-    ( \( )/ )      ― St. Bernard of Clairvaux            
-    (       )
-     `>   <'
-     /     \  hjw
-     `-._.-'
-
-Your task:
-
-- Build an  AI. Build it better 
-- Better = faster, generalizable, simpler, explicable, fairer, using less data
-
-When lawyers and politicians cannot keep up with technical innovations,
-it is up to us technologists to deliberately sin less. When we might
-not be able to aways avoid undesirable social effects of our
-technology, we should at least try to write software that sins less,
-whenever it can.
-
-This subject treats ethics as an AI-based optimization problem where
-software makes choices that at least monitors, and at most improves,
-the ethical impact of software. Topics covered will include ethics,
-case studies in ethical software, international standard for ethics
-in AI and software engineering, safety engineering, data mining,
-pareto optimization, multi-objective optimization, bayesian parameter
-optimization, discretization, explanation, planning,.
-
-Projects will be determined by student background: skilled programmers
-will build AI tools that make better ethical choice; other students
-will do extensive case studies in ethics and software engineering.
-
-## Why do this subject?
-
-- Three months of glorious hacking
-- Deeper  understanding of Software 2.0,
-  data mining, optimization, explanation,
-  fairness.
-- Cause it is the right thing to do
-  - Software rules the  world, sometimes for good, often for bad.
-    Time to change  that.
-  - But we  are  software engineers:
-    - So we should rule the  software, not the other way  around
-    - "We believe that ethical technology is technology that works for
-you," said Tim Cook, CEO, Apple. "It's technology that helps you sleep, not keeps
-you up. It tells you when you've had enough. It gives you space to
-create or draw or write or learn, not refresh just one more time."
-
-## Why am I teaching this subject?
-
-Seeking a lighter, learner approach to AI. Learning when enough is enough.
-Seek summaries of data, not endless streams of irrelevant detail.
-
-A protest: tired of my work being in organizations that do not offer
-clean up for the mess they make. BTW, nothing wrong with a little
-disrupt. disrupt = innovation = opportunity to make tings better.
-but an organization, and a society, that endorses disrupt also needs
-to endorse support actions for curtailing bad disrupt and supporting
-the unfortunates effected negatively by that  disrupt. Otherwise, we
-just get production and pollution without clean up. 
-
-but  you  know this, you learned in childhood. remember, the
-cat in the hat did do disrupt, then we did clean up. he had tools
-for clean up. do  you?
-                
-<img width="776" alt="image" src="https://user-images.githubusercontent.com/29195/129815422-5a3be6e9-352d-46ad-9dd8-3f0d472a4b14.png">
-
-
-## Theory (to  be covered in lectures)
-
--  Software 2.0
-   -  care and feeding of optimizers
-- simplifying fairness
-  - so much on  fairness, so much that is needless confusion
-    - combine  IEEE EU, Microsoft
-  - definitions:  suvodeep's survey
-  - disastrous  new results
-  - new  tools:  
-     - keys
-     - HPO : 
-       - of course if  we build for criteria1, we 
-         may  fail by some other  criteria2.
-       - so  lets build for crtiria 1+2
-- simplifying explanation
-  - don't say explain, say abduct
-  - simplifying  inference (with keys)
-      - keys. many systems  controlled by just a few
-      - semi-supervised learning. contrast sets
-      - from a  data perspective, most details don't matter
-        - range, feature, instance selection
-        -  LACE2
-      - statistically, most of our nuances  don't matter
-        - parametric (e.g. ttest, hedges)
-        - nonparametric (e.g. bootstrap, cliffsdelta)
-        - procedures:
-          - w/l/t :  don't use
-          - recursively cluster, use stats as stopping rule (scott knot, usually
-            done  with  anova)
-- simplifying data mining
-   - entropy, variance,  expected value
-   - tables  have rows and columns
-     - `sym`bolic (a.k.a. = !=
-       -  mid,var =  mode, entropy.
-       - dist = 0 if x==y else 1
-     - `num`eric (a.k.a. ratio)  (-,+,/,\*,&lt;,>)
-       - mid,var =  mode, standard  deviation
-         - compute from sorted list.
-           - all gaussuans are  z-curves
-           - z goes .5 at 1.28. so z=1 at 2*1.26 = 2.56
-       - dist = normalize, the (sum(delta<sup>p</sup>))<sup>1/p</sup>
-         - random projections, cosine rule, 
-     - roles
-        - dependent and  independent
-        - klass, objective (like, hate)
-        - skip
-        - named csv format
-   - effect size
-   - discretization (split, merge)
-   - recall, precision, pf, etc etc
-   - instance-based: knn
-   - model-based:
-     - statisical: bayes
-     - decision lists: FFTrees
-     - trees
-- simplifying  optimization
-   - less than  ( &lt;, bdom, code effect  size, bootstrap)
-       -   NGSGA-II: a patch  on bdom 
-   - multi objective optimization. sa, ga, local search, de, Pareto, decomposition# sin21
-   - DUO (data  mining as optimization) 
-
-![](https://www.questionpro.com/blog/wp-content/uploads/2018/05/Types-of-measurements-scales.jpg)
-
-## Case studies
-
-- week1: [copilot](https://copilot.github.com) and  ask [41 Questions](https://medium.com/@frailestthing/do-artifacts-have-ethics-672246c6696a).
-- week2: [/the social dilemma](https://www.documentaryarea.tv/player.php?title=The%20Social%20Dilemma)
-- after that, tbd
-
-## Code
-
-- Why LUA? 
-  - Python-esque
-  - [Simple](https://learnxinyminutes.com/docs/lua/)
-  - readable, rewritable if your  favorite  code
-- polymorpjsim, not inheritance
-- often  functional (passing  functions as variables)
-- data and  dialog independence. Table class. 
-- config options. all on the command line. always local variables
-- nonparametric
-- stochastic
-- write and rewrite to cut the  crap
-- names csv
-- skip columns
-- TDD
-  (all, list, one, one with stacktrace)
-
-## Homworks
-
-- week1, github, zenodo,  travis, test engine 
-  (all, list, one, one with stacktrace)
-  -  README.md
-  -  requirements.txt
-  -  LICENSE
-  -  \_travis.yml (the $? trick)
-  -  docs
-     - docs/_config.yml
-     - docs/index.md :name
-your team (? use psuedonms, make up some 
-       qualifications?)
-
-## Lectures
-
-- [Intro](https://www.dropbox.com/s/lhtfecn4o9ccyvg/mar5students.pptx?dl=0)
