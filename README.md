@@ -31,13 +31,22 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <tr>
 <td>
 
-3 questions:
+<p>Your  task...
 
 <ol>
-<li>Can you write software that anyone  else would want to  use and maintain?</li>
-<li>Do you know the state-of-the-art in SE?</li>
-<li>What is an ethical approach  to  SE?</li>
-</ol>
+<li>Build an  AI
+<li>Build it "better"
+</ol></p>
+<p>
+Where "better" means:
+<ol>
+<li>Faster, or ...
+<li>more general or ...
+<li>simpler or ...
+<li>explicable or ...
+<li>fairer or ...
+<li>makes conclusions using less data.
+</ol></p>
 
 
 </td>
@@ -57,15 +66,18 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <!-- -------------------------------- -->
 
 <td align=center   valign=top xwidth="100px">
-<img width=40 src="https://cdn.imgbin.com/1/14/4/imgbin-new-tag-rc3dLQYRD66TXkmqTktPM3L0H.jpg">
  
 </td>
 <td valign=top>
-Aug 26, Homework 1<br>
-Sept 2, Homework 2 <br>
-Sept 9, Homework 3<br>
-Tbd,  Homework 4<br>
-Tbd,  Homework 5<br>
+Aug 25, Homework 1<br>
+Sept 1, Homework 2 <br>
+Sept 8, Homework 3<br>
+Sept 15, Homework 4<br>
+Sept 22, Homework 5<br>
+Sept 29, Homework 6<br>
+Oct  6, Homework 7<br>
+Oct  13, Homework 8<br>
+Oct 20, Mid-term<br>
 Tbd,  Homework 6<br>
 Sept 30, <a href="docs/proj1.md">Project 1</a><br>
 Oct 5, Mid-term<br>
