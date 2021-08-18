@@ -37,12 +37,12 @@ create or draw or write or learn, not refresh just one more time."
 
 | idea | notes |
 |------|-------|
-|New kind of SE, AI| Fairness aware.<br>Massive future growth industry.|
-| Software 2.0 |Care and feeding of optimizers<br>  Numerical and non-numerical optimization|
-| Software fairness testing | Disastrous  new results.<br> How fix them|
-|Secrets of AI systems| Data balancing.<br> Keys: most systems controlled by just a few variables. Hence, explaining or controlling those systems  a just a matter of controlling the keys. <br>Hyperparamter optimization: if you build to optimize criteria C1, then your score on some other criteria (C2) is a random variable. Solution: build while optimizing for _all_ the criteria you care about.|
-|Explanation| The explanation tower of Balel<br>Abduction: the core of explanation|
-|SE for AI| Build your own AI (hint: easy if you use keys)<br>The data structures inside AI (Row, Rows, Num, Sym, etc).<br> Data mining (divide the space).<br>Optimization (build bridges within the space).<br>Multi-objective optimization (easier than you think; using data mining).<br>The great secret: optimization = data mining.|
+|New kind of SE, AI| 1.Fairness aware.<br>2.Massive future growth industry.|
+| Software 2.0 |1.Care and feeding of optimizers<br>  2.Numerical and non-numerical optimization|
+| Software fairness testing | Disastrous  new results.<br> 2.How fix them|
+|Secrets of AI systems| 1.Data balancing.<br> 2.Keys: most systems controlled by just a few variables. Hence, explaining or controlling those systems  a just a matter of controlling the keys. <br>3.Hyperparameter optimization: if you build to optimize criteria C1, then your score on some other criteria (C2) is a random variable. Solution: build while optimizing for _all_ the criteria you care about.|
+|Explanation| 1.The explanation tower of Balel<br>2.Abduction: the core of explanation|
+|SE for AI| 1.Build your own AI (hint: easy if you use keys)2. Parametric and non-parametric reasoning (the wondeful world of symbols).<br>3.The data structures inside AI (Row, Rows, Num, Sym, etc).<br> 4.Data mining (divide the space).<br>5.Optimization (build bridges within the space).<br>6.Multi-objective optimization (easier than you think; using data mining).<br>7.The great secret: optimization = data mining.|
 
 
 ## Why am I teaching this subject?
