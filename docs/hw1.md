@@ -1,8 +1,10 @@
 [home](/README.md)
 
+<img align=right width=600 src="https://user-images.githubusercontent.com/29195/129835135-9ac4bb47-efdf-4189-8f2a-06bf14fbebd1.png">
+
+
 ## Hw1
 
-<img align=right width=600 src="https://user-images.githubusercontent.com/29195/129835135-9ac4bb47-efdf-4189-8f2a-06bf14fbebd1.png">
 
 Set up for coding. Your repo is your resume.
 
