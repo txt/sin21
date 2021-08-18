@@ -57,7 +57,7 @@ just get production and pollution without clean up.
 
 But  you  know this, you learned in childhood. Remember, the
 cat in the hat did do disrupt, then he did clean up. He had tools
-for clean up. do  you?
+for clean up. Do  you?
                 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/29195/129815422-5a3be6e9-352d-46ad-9dd8-3f0d472a4b14.png">
 
