@@ -8,9 +8,9 @@ Wed 3:00PM - 5:45PM
 
 ## Overview
 
-When lawyers and politicians cannot keep up with technical innovations,
+ lawyers and politicians cannot keep up with technical innovations,
 it is up to us technologists to deliberately sin less. When we might
-not be able to aways avoid undesirable social effects of our
+not be able to always avoid undesirable social effects of our
 technology, we should at least try to write software that sins less,
 whenever it can.
 
@@ -19,7 +19,7 @@ software makes choices that at least monitors, and at most improves,
 the ethical impact of software. Topics covered will include ethics,
 case studies in ethical software, international standard for ethics
 in AI and software engineering, safety engineering, data mining,
-pareto optimization, multi-objective optimization, bayesian parameter
+Pareto optimization, multi-objective optimization, Bayesian parameter
 optimization, discretization, explanation, planning,.
 
 Projects will be determined by student background: skilled programmers
@@ -34,7 +34,7 @@ In this subject, students will be taught about ethical SE and AI.
 Topics covered will include ethics, fairness, semi-supervised
 learning, case studies in ethical software, international standard
 for ethics in AI and software engineering, safety engineering, data
-mining, pareto optimization, multi-objective optimization, bayesian
+mining, Pareto optimization, multi-objective optimization, Bayesian
 parameter optimization, discretization, explanation, abduction,
 planning, non-parametric statistics
 
@@ -44,7 +44,7 @@ planning, non-parametric statistics
 
 ### Textbook
 
-+  Npne. This while topic area is so new.
++  None. This whole topic area is so new.
 
 ### Class Discord Group
 
@@ -60,20 +60,22 @@ All class communication from staff to students will be via this Discord group.
 ## Assessment
 
 Grades come from 
-- 1 progject presentation (15 marks)
+- 1 project presentation (15 marks)
 - 1 end-of-term project  report (35 marks)
 - 1 mid-session exam  (15 marks)
 - 1 small final report (commentary) (11 marks)
-- 8 homeworks (3 marks each)
+- 8 homework (3 marks each)
 
-Homwworks are "build an AI".
+Homeworkds
 
-Project  is  "build it better", using the principles of this class.
+- Homework are scored "1" (for try  and do  it again) and "2" for "done!". Homework can be submitted
+many  times (until the mid-term). There are no late marks for homework.
+- Homework are "build an AI".
 
-Homeworks are scored "1" (for try  and do  it again) and "2" for "done!". Homeworks can be submitted
-many  times (until the mid-term). There are no late marks for homeworks.
+Project
 
-Presentations  must be presented  on presentation day  (last week of  term).
+- Project  is  "build it better", using the principles of this class.
+- Project presentations  must be presented  on presentation day  (last week of  term).
 
 Reports get late marks -1 per day late (weekend is  1 mark).
 
