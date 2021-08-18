@@ -82,6 +82,7 @@ Oct 13,&nbsp;hw8&nbsp;eg8<br>
 Oct 20,&nbsp;Mid-term<br>
 Nov 24,&nbsp;Presentations<br>
 Nov 26,&nbsp;Report<br>
+Nov 26,&nbsp;Commentary<br>
 </td>
 </tr>
 
