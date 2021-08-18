@@ -14,9 +14,14 @@ we could see where it goes wrong and how to fix it.
 
 
 I think I made things worse. Right now, me and my grad students can
-- Peek, quickly, at some other complex phenomena or model. Build an adequate approximation of that other thing. Say good-bye to group privacy (in you I can explain you, I can steal you).
+- Peek, quickly, at some other complex phenomena or model.
+-  Build an adequate approximation of that other thing.
+-  - Say good-bye to group privacy (in you I can explain you, I can steal you).
 
 ![image](https://user-images.githubusercontent.com/29195/129938660-52b6988b-c6df-4ff0-a424-4b00189d7bf2.png)
+
+![image](https://user-images.githubusercontent.com/29195/129939306-b2dbbbe8-40dd-4659-bcb9-77f908d0c274.png)![image](https://user-images.githubusercontent.com/29195/129939329-1cd68376-d10c-4b37-9eaa-b557dac2c4eb.png)
+
 
 
 Worse yet, 
