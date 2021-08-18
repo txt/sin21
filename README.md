@@ -56,10 +56,9 @@ Well lets talk about that...</p>
     Introduction:
   </dt>
   <dd>
-    
     <a href="docs/syllabus.md">Syllabus</a><br>
      <a href="docs/00hello.md">Hello</a>, <br>
-      <a href="docs/01ethics.md">Ethics 101</a>, <br>
+     <a href="docs/01ethics.md">Ethics 101</a> 
   </dd>
 </dl>
 
