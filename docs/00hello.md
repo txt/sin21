@@ -79,7 +79,8 @@ we could see where it goes wrong and how to fix it.
 I think I made things worse. Right now, me and my grad students can
 - Peek, quickly, at some other complex phenomena or model.
 -  Build an adequate approximation of that other thing.
--  - So explaination disables privacy (caveat: group privacy)
+-  That summary is small, can be summarized as rules or, heack, just be shown as samples in a table for you to browse.
+-  So explaination disables privacy (caveat: group privacy) 👎
 
 <img src="https://user-images.githubusercontent.com/29195/129938660-52b6988b-c6df-4ff0-a424-4b00189d7bf2.png" width =250><img 
 src="https://user-images.githubusercontent.com/29195/129939306-b2dbbbe8-40dd-4659-bcb9-77f908d0c274.png" width=250><img 
@@ -92,7 +93,7 @@ Worse yet,
 -  But once we move to the age of peeking (semi-supervised learning), you can lie to me.
 -  All my semi-supervised peeking tricks mean that I'm only look at small parts of the total system.
 -  And you can distinguish my approxiate queries from actual data.
--  So   explainable enables deception.
+-  So   explainable enables deception. 👎
 
 <img src="https://user-images.githubusercontent.com/29195/129940131-77a394eb-9387-44f7-afbc-dd8833635b72.png" width=350><img src="https://user-images.githubusercontent.com/29195/129939923-a1bbd465-40df-459f-abd6-2f96a70e5525.png" width=350>
 
