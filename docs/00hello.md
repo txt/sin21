@@ -1,37 +1,5 @@
 [home](/README.md)
 
-Recently, everything world flipped over and some very good became very bad.
-
-The original picture of the internet was information wants to
-be free and things get better if everyone changes everything using
-computer technology.
-
-Then in the age of social, the  attention wars  happened and  the misinformation started
-flowing.
-
-I tried to fix that with tools to make AI more explicable. If we could reason better about AI,
-we could see where it goes wrong and how to fix it.
-
-
-I think I made things worse. Right now, me and my grad students can
-- Peek, quickly, at some other complex phenomena or model.
--  Build an adequate approximation of that other thing.
--  - Say good-bye to group privacy (in you I can explain you, I can steal you).
-
-![image](https://user-images.githubusercontent.com/29195/129938660-52b6988b-c6df-4ff0-a424-4b00189d7bf2.png)
-
-![image](https://user-images.githubusercontent.com/29195/129939306-b2dbbbe8-40dd-4659-bcb9-77f908d0c274.png)![image](https://user-images.githubusercontent.com/29195/129939329-1cd68376-d10c-4b37-9eaa-b557dac2c4eb.png)
-
-
-
-Worse yet, 
-- Can asess the fariness of software, if we can access all your data. But once we move to the age of peeking (semi-supervised learning), you can lie to me.
-
-- 
-in order to build an  
-
-Yeah, right.
-
 
 
 ## Why do this subject?
@@ -86,5 +54,40 @@ cat in the hat did do disrupt, then we did clean up. he had tools
 for clean up. do  you?
                 
 <img width="776" alt="image" src="https://user-images.githubusercontent.com/29195/129815422-5a3be6e9-352d-46ad-9dd8-3f0d472a4b14.png">
+
+## Going into Details
+
+Recently, everything world flipped over and some very good became very bad.
+
+The original picture of the internet was information wants to
+be free and things get better if everyone changes everything using
+computer technology.
+
+Then in the age of social, the  attention wars  happened and  the misinformation started
+flowing.
+
+I tried to fix that with tools to make AI more explicable. If we could reason better about AI,
+we could see where it goes wrong and how to fix it.
+
+
+I think I made things worse. Right now, me and my grad students can
+- Peek, quickly, at some other complex phenomena or model.
+-  Build an adequate approximation of that other thing.
+-  - Say good-bye to group privacy (in you I can explain you, I can steal you).
+
+![image](https://user-images.githubusercontent.com/29195/129938660-52b6988b-c6df-4ff0-a424-4b00189d7bf2.png)
+
+![image](https://user-images.githubusercontent.com/29195/129939306-b2dbbbe8-40dd-4659-bcb9-77f908d0c274.png)![image](https://user-images.githubusercontent.com/29195/129939329-1cd68376-d10c-4b37-9eaa-b557dac2c4eb.png)
+
+
+
+Worse yet, 
+- Can asess the fariness of software, if we can access all your data. But once we move to the age of peeking (semi-supervised learning), you can lie to me.
+
+- 
+in order to build an  
+
+Yeah, right.
+
 
 
