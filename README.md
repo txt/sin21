@@ -70,17 +70,18 @@ Well lets talk about that...</p>
  
 </td>
 <td valign=top>
-Aug 25, Homework 1<br>
-Sep 01, Homework 2 <br>
-Sep 08, Homework 3<br>
-Sep 15, Homework 4<br>
-Sep 22, Homework 5<br>
-Sep 29, Homework 6<br>
-Oct 06, Homework 7<br>
-Oct 13, Homework 8<br>
-Oct 20, Mid-term<br>
-Nov 24, Presentations<br>
-Nov 26, Report<br>
+Aug 18,&nbsp;eg0<br>
+Aug 25,&nbsp;[hw1](/docs/hw1.md)&nbsp;[eg](/docs/eg1.md)<br>
+Sep 01,&nbsp;hw2&nbsp;eg2<br>
+Sep 08,&nbsp;hw3&nbsp;eg3<br>
+Sep 15,&nbsp;hw4&nbsp;eg4<br>
+Sep 22,&nbsp;hw5&nbsp;eg5<br>
+Sep 29,&nbsp;hw6&nbsp;eg6<br>
+Oct 06,&nbsp;hw7&nbsp;eg7<br>
+Oct 13,&nbsp;hw8&nbsp;eg8<br>
+Oct 20,&nbsp;Mid-term<br>
+Nov 24,&nbsp;Presentations<br>
+Nov 26,&nbsp;Report<br>
 </td>
 </tr>
 
