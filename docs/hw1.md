@@ -5,7 +5,7 @@
 Set up for coding. Your repo is your resume.
 
 - Add [bling](#bling)
-- Add [the other things](#)
+- Add [the other things](#and-the-rest)
 
 ## Bling
 Get yourself the bling. e.g. here's the bling on one of
