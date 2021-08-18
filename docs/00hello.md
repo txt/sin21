@@ -36,6 +36,7 @@ create or draw or write or learn, not refresh just one more time."
    ideas
 
 | idea | notes |
+|------|-------|
 | Software 2.0 |Care and feeding of optimizers, numerical and non-numerical optimization|
 | Software fairness testing | Disastrous  new results and how fix them|
 |Secrets of AI systems| Data balancing.<br> Keys (most systems controlled by just a few variabes |
