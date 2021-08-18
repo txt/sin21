@@ -32,7 +32,7 @@ Give your self a [good LICENSE.md](https://choosealicense.com/).
 Make your code <a href="https://guides.github.com/activities/citable-code/">cite-able</a>.
 <a href="https://zenodo.org/badge/latestdoi/318809834"><img src="https://zenodo.org/badge/318809834.svg"></a>
 
-### Cite-able
+### Testable
 
 Make your code auto-test every time you commit the repo. FYI, I use Github Actions but you can 
 use anything:
