@@ -12,6 +12,17 @@ flowing.
 I tried to fix that with tools to make AI more explicable. If we could reason better about AI,
 we could see where it goes wrong and how to fix it.
 
+
+I think I made things worse. Right now, me and my grad students can
+- Peek, quickly, at some other complex phenomena or model. Build an adequate approximation of that other thing. Say good-bye to group privacy (in you I can explain you, I can steal you).
+
+
+Worse yet, 
+- Can asess the fariness of software, if we can access all your data. But once we move to the age of peeking (semi-supervised learning), you can lie to me.
+
+- 
+in order to build an  
+
 Yeah, right.
 
 
