@@ -3,7 +3,13 @@
 ## Hw1
 
 Set up for coding. Your repo is your resume.
-Get yourself the bling:
+
+- Add [bling](#bling)
+- Add [the other things](#)
+
+## Bling
+Get yourself the bling. e.g. here's the bling on one of
+my repos:
 
 <img alt="Lua" src="https://img.shields.io/badge/lua-v5.4-blue">
 <a href="https://github.com/timm/keys/blob/master/LICENSE.md"><img 
@@ -12,15 +18,6 @@ src="https://img.shields.io/badge/purpose-ai%20,%20se-blueviolet"> <img
 alt="Platform" src="https://img.shields.io/badge/platform-osx%20,%20linux-lightgrey"> <a 
 href="https://github.com/timm/keys/actions"><img 
 src="https://github.com/timm/keys/actions/workflows/unit-test.yml/badge.svg"></a> 
-
-### .gitignore
-
-Grab the _.gitignore_\s that work for you
-from [https://github.com/github/gitignore](https://github.com/github/gitignore).
-
-### Install
-
-Set up a _requirements.txt_ listing all the things you need for you code.
 
 ### License
 
@@ -36,9 +33,22 @@ Make your code <a href="https://guides.github.com/activities/citable-code/">cite
 Make your code auto-test every time you commit the repo. FYI, I use Github Actions but you can 
 use anything:
 
+- [tutorial](https://docs.github.com/en/actions)
 - [code](https://github.com/timm/keys/blob/main/.github/workflows/unit-test.yml)
 - [output](https://github.com/timm/keys/actions)
-- [tutorial](https://docs.github.com/en/actions)
+
+--------------------
+
+## And the rest
+
+### .gitignore
+
+Grab the _.gitignore_\s that work for you
+from [https://github.com/github/gitignore](https://github.com/github/gitignore).
+
+### Install
+
+Set up a _requirements.txt_ listing all the things you need for you code.
 
 ### Github pages
 
@@ -59,7 +69,7 @@ For python, `pdoc3` is nice and has more features that docco.
   - With these templates:
     - [\_config.yml](https://github.com/timm/bnbad2/blob/main/docs/\_config.yml)
     - [config.mako](https://github.com/timm/bnbad2/blob/main/docs/config.mako)
-    - [credicts.mako](https://github.com/timm/bnbad2/blob/main/docs/credits.mako)
+    - [credits.mako](https://github.com/timm/bnbad2/blob/main/docs/credits.mako)
     - [logo.mako](https://github.com/timm/bnbad2/blob/main/docs/logo.mako)
 
 After docco and pdoc3, there is an infinity of documentation tools of infinite complexity.  Be warned.
