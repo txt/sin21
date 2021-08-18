@@ -13,7 +13,8 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <br>
 <hr>
 
-
+“A saint is not someone who never sins, but one who sins less and less frequently."   
+   ― St. Bernard of Clairvaux, 1090-1153
   
 <table width="100%" border=0 align=center>
 <tr>
@@ -35,16 +36,12 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 <ol>
 <li>Build an AI;
-<li>Build it "better".
+<li>Build it "better" (so it sins less);
 </ol></p>
 <p>
 But what does "better" means?
-Faster?
-More general?
-Simpler?
-More explicable?
-Fairer?
-Makes conclusions using less data?
+Do you know the sins an AI tool can make?
+Can you fix them?
 </p>
 <p>
 Well lets talk about that...</p>
