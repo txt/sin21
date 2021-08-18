@@ -37,9 +37,9 @@ create or draw or write or learn, not refresh just one more time."
 
 | idea | notes |
 |------|-------|
-| Software 2.0 |Care and feeding of optimizers, numerical and non-numerical optimization|
-| Software fairness testing | Disastrous  new results and how fix them|
-|Secrets of AI systems| Data balancing.<br> Keys (most systems controlled by just a few variabes |
+| Software 2.0 |Care and feeding of optimizers<br>  Numerical and non-numerical optimization|
+| Software fairness testing | Disastrous  new results.<br> How fix them|
+|Secrets of AI systems| Data balancing.<br> Keys: most systems controlled by just a few variables. Hence, explaining or controlling those systems  a just a matter of controlling the keys. <br>Hyperparamter optimization: if you build to optimize criteria C1, then your score on some other criteria (C2) is a random variable. Solution: build while optimizing for _all_ the criteria you care about.|
 
 
     - Simplifying fairness
