@@ -31,12 +31,12 @@ will do extensive case studies in ethics and software engineering.
 This is an _advanced graduate_ class. 
 In this subject, students will be taught about ethical SE and AI.
 
-Topics covered will include ethics, fairness, semi-supervised learning, 
-case studies in ethical software, international standard for ethics
-in AI and software engineering, safety engineering, data mining,
-pareto optimization, multi-objective optimization, bayesian parameter
-optimization, discretization, explanation, abduction, planning, non-parametric statistics
-
+Topics covered will include ethics, fairness, semi-supervised
+learning, case studies in ethical software, international standard
+for ethics in AI and software engineering, safety engineering, data
+mining, pareto optimization, multi-objective optimization, bayesian
+parameter optimization, discretization, explanation, abduction,
+planning, non-parametric statistics
 
 ### Prerequisites
 
