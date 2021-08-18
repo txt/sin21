@@ -71,7 +71,7 @@ Well lets talk about that...</p>
 </td>
 <td valign=top>
 Aug 18,&nbsp;eg0<br>
-Aug 25,&nbsp;[hw1](/docs/hw1.md)&nbsp;[eg](/docs/eg1.md)<br>
+Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>&nbsp;<a href="/docs/eg1.md">eg1</a><br>
 Sep 01,&nbsp;hw2&nbsp;eg2<br>
 Sep 08,&nbsp;hw3&nbsp;eg3<br>
 Sep 15,&nbsp;hw4&nbsp;eg4<br>
