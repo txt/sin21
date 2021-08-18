@@ -80,8 +80,7 @@ Project
 Reports get late marks -1 per day late (weekend is  1 mark).
 
 Exam is done  individually. Everything else is done in  
-<a href="https://docs.google.com/spreadsheets/d/1n0zHiZlVYkLAEg5Lj1CVaLSEaeNy8iYjw8IMWYWs4Tk/edit#gid=0">groups</a>
-(master students, groups of 2. phd students, groups of  1).
+<a href="https://docs.google.com/spreadsheets/d/1n0zHiZlVYkLAEg5Lj1CVaLSEaeNy8iYjw8IMWYWs4Tk/edit#gid=0">groups</a> (master students, groups of 2. phd students, groups of  1).
 
 With the final grades, the following grade scale will be used: 
 
@@ -117,9 +116,7 @@ Tim Menzies <img src="http://www.csc.ncsu.edu/enews/images/1770.jpg" align=right
 
 ### Attendance
 
-- Lectures are twice a week.
-- Tutorial sessions are optional, but please use our tutorial resources
-  to help you along.
+- Lectures are once a week.
 - Please make sure you experience the lectures (either live or watching
   the recoding).
 - Aside from that, you have  to service all your homework, and prokect
