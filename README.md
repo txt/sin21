@@ -13,7 +13,8 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <br>
 <hr>
 
-
+“A saint is not someone who never sins, but one who sins less and less frequently."   
+   ― St. Bernard of Clairvaux, 1090-1153
   
 <table width="100%" border=0 align=center>
 <tr>
@@ -35,16 +36,12 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 <ol>
 <li>Build an AI;
-<li>Build it "better".
+<li>Build it "better" (so it sins less);
 </ol></p>
 <p>
 But what does "better" means?
-Faster?
-More general?
-Simpler?
-More explicable?
-Fairer?
-Makes conclusions using less data?
+Do you know the sins an AI tool can make?
+Can you fix them?
 </p>
 <p>
 Well lets talk about that...</p>
@@ -59,9 +56,15 @@ Well lets talk about that...</p>
     Introduction:
   </dt>
   <dd>
+<<<<<<< HEAD
     <a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a> <br>
     <a href="docs/00hello.md">Hello</a>, <br>
     <a href="docs/syllabus.md">Syllabus</a>
+=======
+    <a href="docs/syllabus.md">Syllabus</a><br>
+     <a href="docs/00hello.md">Hello</a>, <br>
+     <a href="docs/01ethics.md">Ethics 101</a> 
+>>>>>>> 1d4b0f936a0979c30aab74a5baa1a86d6876162f
   </dd>
 </dl>
 
@@ -72,14 +75,14 @@ Well lets talk about that...</p>
 </td>
 <td valign=top>
 Aug 18,&nbsp;eg0<br>
-Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>&nbsp;<a href="/docs/eg1.md">eg1</a><br>
-Sep 01,&nbsp;hw2&nbsp;eg2<br>
-Sep 08,&nbsp;hw3&nbsp;eg3<br>
-Sep 15,&nbsp;hw4&nbsp;eg4<br>
-Sep 22,&nbsp;hw5&nbsp;eg5<br>
-Sep 29,&nbsp;hw6&nbsp;eg6<br>
-Oct 06,&nbsp;hw7&nbsp;eg7<br>
-Oct 13,&nbsp;hw8&nbsp;eg8<br>
+Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>,<a href="/docs/eg1.md">eg1</a><br>
+Sep 01,&nbsp;hw2&,eg2<br>
+Sep 08,&nbsp;hw3,eg3<br>
+Sep 15,&nbsp;hw4,eg4<br>
+Sep 22,&nbsp;hw5,eg5<br>
+Sep 29,&nbsp;hw6,eg6<br>
+Oct 06,&nbsp;hw7,eg7<br>
+Oct 13,&nbsp;hw8,eg8<br>
 Oct 20,&nbsp;Mid-term<br>
 Nov 24,&nbsp;Presentations<br>
 Nov 26,&nbsp;Report<br>
