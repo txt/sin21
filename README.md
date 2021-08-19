@@ -58,7 +58,6 @@ Well lets talk about that...</p>
   <dd>
     <a href="docs/00hello.md">Hello</a>  
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video</a>)<br>
-    <br>
     <a href="docs/syllabus.md">Syllabus</a>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a>)<br>
   </dd>
