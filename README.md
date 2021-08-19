@@ -56,15 +56,9 @@ Well lets talk about that...</p>
     Introduction:
   </dt>
   <dd>
-<<<<<<< HEAD
     <a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a> <br>
     <a href="docs/00hello.md">Hello</a>, <br>
     <a href="docs/syllabus.md">Syllabus</a>
-=======
-    <a href="docs/syllabus.md">Syllabus</a><br>
-     <a href="docs/00hello.md">Hello</a>, <br>
-     <a href="docs/01ethics.md">Ethics 101</a> 
->>>>>>> 1d4b0f936a0979c30aab74a5baa1a86d6876162f
   </dd>
 </dl>
 
