@@ -2,6 +2,8 @@
 
 ## Goals
 
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+
 Well, so much disagreement, but some overlap:
 -“Ethically-aligned design: A vision for prioritizing human well-begin
 with autonomous and intelligence systems.” 2019.
