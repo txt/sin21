@@ -1,4 +1,4 @@
-# Fariness101
+# Fairness101
 
 ## Goals
 
