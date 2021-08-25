@@ -57,7 +57,10 @@ The output space of these learners actually "grids" into a small number of chunk
 
 ![image](https://user-images.githubusercontent.com/29195/130842928-3ba01064-97ba-481d-af1c-3ab26448c7c9.png)
 
-Agrawal, A., Fu, W., Chen, D., Shen, X., & Menzies, T. (2019). How to" DODGE" Complex Software Analytics. IEEE TSE
+How to explore that grid:
+
+- A1: a funky tabu search. Agrawal, A., Fu, W., Chen, D., Shen, X., & Menzies, T. (2019). How to" DODGE" Complex Software Analytics. IEEE TSE
+- A2: something much simpler
 
 ![image](https://user-images.githubusercontent.com/29195/130843063-69732276-0e6a-4822-9955-fdd1a51b9699.png)
 
