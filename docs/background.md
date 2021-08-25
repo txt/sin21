@@ -34,6 +34,10 @@ Symbolic rule learning
 
 Tantithamthavorn, et al. “Automated parameter optimization of classification techniques for defect prediction models.” ICSE’16 
 
+<img width=800 src="https://user-images.githubusercontent.com/29195/130847117-bb86a7cf-b657-462f-9480-219361e1325b.png">
+
+
+
 
 Cruz, A. F., Saleiro, P., Belém, C., Soares, C., & Bizarro, P. (2021). Promoting Fairness through Hyperparameter Optimization. arXiv arXiv:2103.12715.
 
