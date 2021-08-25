@@ -62,7 +62,7 @@ How to explore that grid:
 - A1: a funky tabu search. Agrawal, A., Fu, W., Chen, D., Shen, X., & Menzies, T. (2019). How to" DODGE" Complex Software Analytics. IEEE TSE
 - A2: something much simpler
 
-## Case Study: Fast and Frudal trees
+## Case Study: Fast and Frugal trees
 
 An accidental   hyperparameter optimizer (with succinct rules)
 
