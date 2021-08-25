@@ -64,20 +64,32 @@ How to explore that grid:
 
 ## Case Study: Fast and Frudal trees
 
-An accidental hyperparameter optimizer (with succinct rules)
+An accidental   hyperparameter optimizer (with succinct rules)
+
+Does t work for fairness? Lest find out
 
 ![image](https://user-images.githubusercontent.com/29195/130843063-69732276-0e6a-4822-9955-fdd1a51b9699.png)
 
 ![image](https://user-images.githubusercontent.com/29195/130843184-373d50b2-3ace-4b0a-80e0-dff4bef4db31.png)
 
-<img width=300 src="https://user-images.githubusercontent.com/29195/130843316-b3431e10-0e7e-476e-a73b-6e345a1e30e8.png"> <img width=280 src="https://user-images.githubusercontent.com/29195/130843349-95c07e1f-bb3e-4aa2-89d6-76ac1426321d.png"> <img width=260 src="https://user-images.githubusercontent.com/29195/130843390-4dd7441f-8f1b-42e9-a12b-e907d01bd38a.png">
+<img width=320 src="https://user-images.githubusercontent.com/29195/130843316-b3431e10-0e7e-476e-a73b-6e345a1e30e8.png">
+
+<img width=280 src="https://user-images.githubusercontent.com/29195/130843349-95c07e1f-bb3e-4aa2-89d6-76ac1426321d.png"> 
+
+<img width=260 src="https://user-images.githubusercontent.com/29195/130843390-4dd7441f-8f1b-42e9-a12b-e907d01bd38a.png">
 
 ![image](https://user-images.githubusercontent.com/29195/130843655-dea9bcd2-d6cf-4282-94fb-dcd4ecaf7a69.png)
 
+Algorithm:
 
+- Generate 16 trees
+- test trees on training data
+- pock "best" one
+- apply that to test data
 
 <img width=300 src="https://user-images.githubusercontent.com/29195/130843498-7e9d0897-4e39-4333-a49e-802e8c42f51e.png">
 
 
- 
+ ![image](https://user-images.githubusercontent.com/29195/130848474-e25242c4-5366-442e-814f-c1457579f6d7.png)
+
 
