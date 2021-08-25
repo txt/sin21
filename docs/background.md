@@ -1,18 +1,32 @@
-# What is fairness?
+# Fariness
+
+## Goals
+
+Well, so much disagreement, but some overlap:
+-“Ethically-aligned design: A vision for prioritizing human well-begin
+with autonomous and intelligence systems.” 2019.
+-  “Ethics guidelines for trustworthy artificial intelligence.” 2018.
+Available: https://ec.europa.eu/digital-single-market/en/news/
+ethics-guidelines-trustworthy-ai
+- “Microsoft AI principles,” 2019. [Online]. Available: http://tiny.cc/
+Microsof
 
 ![image](https://user-images.githubusercontent.com/29195/130842113-93112640-9586-4ef0-9fbe-1b1f9974c229.png)
 
-Q:  Do you want AI that is accountable, transparent, inclusive, can integrate with human agency, and allows human oversight
+From the above I state that common concerns are for
+ AI that is accountable, transparent, inclusive, can integrate with human agency, and allows human oversight
 
-We can adjust fairness
+## methods 
+We can Optimize for fairness, just ike anything else.
 
-Neural nets, gradient descent
 
-![image](https://user-images.githubusercontent.com/29195/130842332-f0aae335-edf3-4fce-925b-331a6d6bf4cc.png)
+You now that learners adjsut their internal parameters e.g. Neural nets, gradient descent
+
+![image](https://user-images.githubusercontent.com/29195/130842332-f0aae335-edf3-4fce-925b-331a6d6bf4cc.png | width=400)
 
 Symbolic rule learning
 
-![image](https://user-images.githubusercontent.com/29195/130842423-2649dbfb-cad9-4128-abd0-c13a6e285099.png)
+![image](https://user-images.githubusercontent.com/29195/130842423-2649dbfb-cad9-4128-abd0-c13a6e285099.png | width=400)
 
 ![image](https://user-images.githubusercontent.com/29195/130842528-f7820e05-d36b-4b1a-9e41-fef435de5283.png)
 
