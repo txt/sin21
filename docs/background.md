@@ -46,6 +46,11 @@ Cruz, A. F., Saleiro, P., Belém, C., Soares, C., & Bizarro, P. (2021). Promotin
 
 ![image](https://user-images.githubusercontent.com/29195/130842711-01c78419-c8d4-4b96-8064-2fba3c33d6c4.png)
 
+Aaarg! so many blue dots. 
+
+- Q: how to explore them all?
+- A: epsilon domination
+- 
 ![image](https://user-images.githubusercontent.com/29195/130842896-2abde518-0abd-4a2b-a001-100520e4b1f3.png)
 
 ![image](https://user-images.githubusercontent.com/29195/130842928-3ba01064-97ba-481d-af1c-3ab26448c7c9.png)
