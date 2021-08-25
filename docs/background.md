@@ -89,7 +89,6 @@ Algorithm:
 
 <img width=300 src="https://user-images.githubusercontent.com/29195/130843498-7e9d0897-4e39-4333-a49e-802e8c42f51e.png">
 
-
- ![image](https://user-images.githubusercontent.com/29195/130848474-e25242c4-5366-442e-814f-c1457579f6d7.png)
+<img width=600 src="https://user-images.githubusercontent.com/29195/130848474-e25242c4-5366-442e-814f-c1457579f6d7.png">
 
 
