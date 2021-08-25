@@ -70,11 +70,7 @@ An accidental hyperparameter optimizer (with succinct rules)
 
 ![image](https://user-images.githubusercontent.com/29195/130843184-373d50b2-3ace-4b0a-80e0-dff4bef4db31.png)
 
-<img width=300 src="https://user-images.githubusercontent.com/29195/130843316-b3431e10-0e7e-476e-a73b-6e345a1e30e8.png">
-
-<img width=300 src="https://user-images.githubusercontent.com/29195/130843349-95c07e1f-bb3e-4aa2-89d6-76ac1426321d.png">
-
-<img width=300 src="https://user-images.githubusercontent.com/29195/130843390-4dd7441f-8f1b-42e9-a12b-e907d01bd38a.png">
+<img width=300 src="https://user-images.githubusercontent.com/29195/130843316-b3431e10-0e7e-476e-a73b-6e345a1e30e8.png"><img width=300 src="https://user-images.githubusercontent.com/29195/130843349-95c07e1f-bb3e-4aa2-89d6-76ac1426321d.png"><img width=300 src="https://user-images.githubusercontent.com/29195/130843390-4dd7441f-8f1b-42e9-a12b-e907d01bd38a.png">
 
 ![image](https://user-images.githubusercontent.com/29195/130843655-dea9bcd2-d6cf-4282-94fb-dcd4ecaf7a69.png)
 
@@ -83,11 +79,5 @@ An accidental hyperparameter optimizer (with succinct rules)
 <img width=300 src="https://user-images.githubusercontent.com/29195/130843498-7e9d0897-4e39-4333-a49e-802e8c42f51e.png">
 
 
-
--------------
-
-fairness = ratio of true positive rates across genders
-
-
-![image](https://user-images.githubusercontent.com/29195/130841178-0a14204c-0657-471f-8592-14eb4a852da9.png)
+ 
 
