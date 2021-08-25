@@ -4,7 +4,7 @@
 ## Hw3
 Your task:
 
-- Exxtend your csv reader from last week 
+- Extend your csv reader from last week 
 - Create  a `Sample` class
   - Sample = rows,cols where columns summarize data in rows.
 
