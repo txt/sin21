@@ -71,8 +71,8 @@ Well lets talk about that...</p>
 <td valign=top>
 Aug 18,&nbsp;eg0<br>
 Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>,<a href="/docs/eg1.md">eg1</a><br>
-Sep 01,&nbsp;hw2&,eg2<br>
-Sep 08,&nbsp;hw3,eg3<br>
+Sep 01,&nbsp;<a href="/docs/hw2.md">hw2.md</a>,<a href="/docs/eg2.md">eg2</a><br>
+Sep 08,&nbsp;<a href="/docs/hw3.md">hw3.md</a>,eg3<br>
 Sep 15,&nbsp;hw4,eg4<br>
 Sep 22,&nbsp;hw5,eg5<br>
 Sep 29,&nbsp;hw6,eg6<br>
