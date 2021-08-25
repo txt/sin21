@@ -2,7 +2,7 @@
 
 ## Goals
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)
+ 
 
 Well, so much disagreement, but some overlap:
 -“Ethically-aligned design: A vision for prioritizing human well-begin
@@ -24,13 +24,13 @@ We can Optimize for fairness, just ike anything else.
 
 You now that learners adjsut their internal parameters e.g. Neural nets, gradient descent
 
-![image](https://user-images.githubusercontent.com/29195/130842332-f0aae335-edf3-4fce-925b-331a6d6bf4cc.png | width=400)
+<img width=400 src="https://user-images.githubusercontent.com/29195/130842332-f0aae335-edf3-4fce-925b-331a6d6bf4cc.png">
 
 Symbolic rule learning
 
-![image](https://user-images.githubusercontent.com/29195/130842423-2649dbfb-cad9-4128-abd0-c13a6e285099.png | width=400)
+<img width=400 src="https://user-images.githubusercontent.com/29195/130842423-2649dbfb-cad9-4128-abd0-c13a6e285099.png">
 
-![image](https://user-images.githubusercontent.com/29195/130842528-f7820e05-d36b-4b1a-9e41-fef435de5283.png)
+<img width=400 src="https://user-images.githubusercontent.com/29195/130842528-f7820e05-d36b-4b1a-9e41-fef435de5283.png">
 
 Tantithamthavorn, et al. “Automated parameter optimization of classification techniques for defect prediction models.” ICSE’16 
 
