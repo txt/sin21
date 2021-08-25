@@ -50,8 +50,10 @@ Aaarg! so many blue dots.
 
 - Q: how to explore them all?
 - A: epsilon domination
-- 
+
 ![image](https://user-images.githubusercontent.com/29195/130842896-2abde518-0abd-4a2b-a001-100520e4b1f3.png)
+
+The output space of these learners actually "grids" into a small number of chunks.
 
 ![image](https://user-images.githubusercontent.com/29195/130842928-3ba01064-97ba-481d-af1c-3ab26448c7c9.png)
 
