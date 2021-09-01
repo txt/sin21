@@ -81,7 +81,7 @@ Well lets talk about that...</p>
 Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>,<a href="/docs/eg1.md">eg1</a><br>
    Sep 01,&nbsp;<a href="/docs/hw2.md">hw2</a>,<a href="/docs/eg2.md">eg2</a><br></strike>
 Sep 08,&nbsp;<a href="/docs/hw3.md">hw3</a>,eg3<br>
-Sep 15,&nbsp;<a href="/docs/hw4.md">hw4</a>,eg4<br>
+Sep 15,&nbsp;<a href="/docs/hw4.md#homework4">hw4</a>,eg4<br>
 Sep 22,&nbsp;hw5,eg5<br>
 Sep 29,&nbsp;hw6,eg6<br>
 Oct 06,&nbsp;hw7,eg7<br>
