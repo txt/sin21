@@ -1,6 +1,8 @@
 [home](/README.md)
 
-# Hw3: Ethically Speaking, the Best Thing You Can Do with Most Data is Throw Most of it Away
+# Less Data (1)
+
+Ethically Speaking, the Best Thing You Can Do with Most Data is Throw Most of it Away
 
 ## Goal:
 Repeat until no crap: cut the crap
@@ -288,7 +290,7 @@ advantage of this lower effective dimension"
 - Method two:  LSH: locality sensitivity hashing
    - Find a way to get an approximate position for a row, in a reduced space
       - e.g. repeat d times
-          -  Find  two  distant "pivots"  = (p,o)
+          -  Find  two  distant (\*) "pivots"  = (p,o)
               - Pick, say, 30 rows at random then find within them, the most distant rows
           - the i-th dimension:
               - this row's d.i = 0 if (row closer to p than o) else 1
@@ -304,20 +306,14 @@ advantage of this lower effective dimension"
       - But less exact
       - still, darn useful
 
+ 
 
-BTW, now we can solve the KD tree dimensionality problem.
-
-- Using random projection:
-   - To find wildest dimension
-   - At each level, do LSH  30 times and select the points that are most distant (*)
-
-
-(*) beware outliers :  
+(\*) beware outliers :  
 
 - A safe thing might be to sort the pivots  by their distance and take something that is
   90% of max distance
  
- ## Your task
+ ## Howework4
  
 ### Task1
  For the data sets process last time
