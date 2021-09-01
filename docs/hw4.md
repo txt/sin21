@@ -1,6 +1,6 @@
 [home](/README.md)
 
-# Hw3: The Best Thing You Can Do with Most Data is Trhow it Away
+# Hw3: Ethically Speaking, the Best Thing You Can Do with Most Data is Throw Most of it Away
 
 ## Goal:
 Repeat until no crap: cut the crap
@@ -128,6 +128,15 @@ And we know how to change these
 ![image](https://user-images.githubusercontent.com/29195/131708447-c0f0c4af-31e9-4389-acd6-d438b9bb835b.png)
 
  
+ 
+Btw, see the colors?
+- One surprisingly [good defect predictor](https://home.cse.ust.hk/~hunkim/papers/nam-ase2015.pdf)
+is "count how often an example has attribute values falling into the worst part of each column" (e..g which side of the emdian your fall).
+- And this does not even need clss labels to impement.
+  -  Defeats most other unsupervised methods (at least, on SE data). See [IVSBC in Fig8](https://yanmeng.github.io/papers/JSS203.pdf).
+- And rrecently we've found it [useful  to look at just a few (2.5% ) of the data labels](https://arxiv.org/pdf/2108.09847.pdf)
+   to refine  what we mean by "worst half"
+   
 ## Distance (Basic)
  Here is Aha's instance-based distance algorithm,
 [section 2.4](https://link.springer.com/content/pdf/10.1007/BF00153759.pdf).
@@ -338,11 +347,13 @@ Show the derivation of the cosine rule. Given two items A,B sepeated by distance
 - Hint1: Pythagoras                                               
 - Hint2:                                                 
 
-                                                ![image](https://user-images.githubusercontent.com/29195/131724005-6b2ace6d-3637-4471-8386-a7b70f9e4e3c.png)
+![image](https://user-images.githubusercontent.com/29195/131724005-6b2ace6d-3637-4471-8386-a7b70f9e4e3c.png)
 
+### Task3                                             
+        
+Using the cosine rule, implement random projects. 
                                                 
-                                                
-Implement `faraway`, a function that selects _the.samples=128_ rows (at random) then finds the thing the.far=.9 of the distance to furthest.
+Firstl, omplement `faraway`, a function that selects _the.samples=128_ rows (at random) then finds the thing the.far=.9 of the distance to furthest.
  
 ```lua
 function Tbl:faraway(row,the,cols,rows,      all)
@@ -392,8 +403,10 @@ function Sample:_divs(rows,lvl,the,leafs enough,
        self:_divs(right,lvl+1, the, leafs, enough) end  end 
 ```
  
--- Returns the leaf clusters
-
+Note from here, we can feature pruning  in each leaf and anomaly detection to implement the ethical operators described above. Next week!
+ 
+Hand in your code, in the repo, and your run times.
+ 
  
                                                 
                                                 
