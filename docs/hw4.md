@@ -370,7 +370,7 @@ function Sample:div1(the,cols,rows,         one,two,c,a,b,mid)
     b  = row:dist(two, the, cols)
     row.projection = (a^2 + c^2 - b^2) / (2*c) -- from task2
   end
-  rows = sorted(rows,"projection")
+  rows = sorted(rows,"projection") -- sort on the "projection" field
   mid  = #rows//2
   return slice(rows,1,mid), slice(rows,mid+1) end -- For Python people: rows[1:mid], rows[mid+1:]
 ```
