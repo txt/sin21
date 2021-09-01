@@ -245,7 +245,7 @@ Example of crazy high dimensiona effects:
  - V(n) = hypersphere = 2&pi;r<sup>2</sup> \* V(n-2) / n
    - at r=1,n=6, V(n) > V(n-2)
    - but after r=1,n=7  V(n) &lt; V(n-2)
-   - Why? well for unit spheres (where r=1) L2 says ((a1-a2)<sup>2</sup> +(b1-b2)<sup>2</sup> + (c1-c2)<sup>2</sup + .... )<sup>1/2</sup>
+   - Why? well for unit spheres (where r=1) L2 says ((a1-a2)<sup>2</sup> +(b1-b2)<sup>2</sup> + (c1-c2)<sup>2</sup> + .... )<sup>1/2</sup>
      - Q: How to  maintain r=1 as the number of dimensions icnreasea?
      - A: Minimize all the gaps (a1-a2), (b1-b2), (c1-c2), etc
      - So for constant radius, as dimensions grows, the gap betweeen examples has to shrinl
@@ -313,7 +313,7 @@ advantage of this lower effective dimension"
 - A safe thing might be to sort the pivots  by their distance and take something that is
   90% of max distance
  
- ## Howework4
+ ## Homework4
  
 ### Task1
  For the data sets process last time
