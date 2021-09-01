@@ -5,8 +5,33 @@
 ## Goal:
 Repeat until no crap: cut the crap
 
-Every <strike>block of stone</strike> has a <strike>statue</strike> signal inside it and it is the taks of the scultpro to discover it.    
+<img src="https://user-images.githubusercontent.com/29195/131719589-f259227c-562c-4249-956b-4ba9c62f6bfb.png" align=right width=400>
+
+"Every <strike>block of stone</strike> has a <strike>statue</strike> signal inside it and it is the taks of the scultpro to discover it. "       
 -- <strike>Michelangelo</strike> some bald guy
+
+
+“Perfection is achieved when there is nothing left to take away.”        
+ -- Antoine de Saint-Exupéry 
+
+
+
+"Less, but better."      
+-- Dieter Rams
+
+
+
+
+
+"In most applications examples are not spread uniformly throughout the instance space, but are concentrated on or near
+a lower-dimensional manifold. Learners can implicitly take
+advantage of this lower effective dimension."      
+-- Pedro Domingoes
+
+<br clear=all>
+<img src="https://user-images.githubusercontent.com/29195/131719792-eca77ca2-b7ee-436a-9e6d-cfbe521aa157.png"  width=900>
+
+
 
 
 
@@ -135,7 +160,7 @@ What about missing values:
 
 In the following recall the `Sample` keeps column headers sperately
 for the `self.x` (independent) columns and the
-`self.y` (dependent) columns.
+`self.y` (dependent) columns. 
 ```lua
 function Sample:dist(row1,row2,the,       a,b,d,n)
   d,n = 0,1E-32
@@ -283,3 +308,92 @@ BTW, now we can solve the KD tree dimensionality problem.
 - A safe thing might be to sort the pivots  by their distance and take something that is
   90% of max distance
  
+ ## Your task
+ 
+### Task1
+ For the data sets process last time
+ - Implement the Aha distance function for `Num`s and `Sym`s
+ - For each row item
+   - print it
+   - print its **nearest item** (that is not it) and the distance to it (this will be a number 0..1)
+   - print its **furtehst item**  and the distance to it (this will be a number 0..1)
+ 
+  
+```lua
+function Sample:neighbors(r1,the, rows,       a)
+  a = {}
+  rows = rows or self.rows
+  for _,r2 in pairs(rows or self.rows) do
+    a[#a+1] = {self:dist(r1,r2,the) -- item1: distance
+              ,r2} end              -- item2: a row
+  table.sort(a, function (y,z) return y[1]<z[1] end)
+  return a end
+```
+                                              
+### Task2
+                                                
+Show the derivation of the cosine rule. Given two items A,B sepeated by distance c,
+- given a third item C of disance a,b to B,A
+- derive an expression for x being the distance that that C falls along the line between East and West    
+- Hint1: Pythagoras                                               
+- Hint2:                                                 
+
+                                                ![image](https://user-images.githubusercontent.com/29195/131724005-6b2ace6d-3637-4471-8386-a7b70f9e4e3c.png)
+
+                                                
+                                                
+Implement `faraway`, a function that selects _the.samples=128_ rows (at random) then finds the thing the.far=.9 of the distance to furthest.
+ 
+```lua
+function Tbl:faraway(row,the,cols,rows,      all)
+  all = self:neighbors(row,the, 
+                       shuffle(self.rows, the.samples)) -- some, picked at random
+  return all[the.far*#all // 1][2] end
+```
+
+Implement `div1` that does one random projection, based on two distant points:
+
+```lua                                               
+function Sample:div1(the,cols,rows,         one,two,c,a,b,mid)
+  one  = self:faraway(Lib.any(rows), the, cols, rows)
+  two  = self:faraway(one,           the, cols, rows)
+  c    = one:dist(two, the, cols)
+  for _,row in pairs(rows) do
+    a  = row:dist(one, the, cols)
+    b  = row:dist(two, the, cols)
+    row.projection = (a^2 + c^2 - b^2) / (2*c) -- from task2
+  end
+  rows = sorted(rows,"projection")
+  mid  = #rows//2
+  return slice(rows,1,mid), slice(rows,mid+1) end -- For Python people: rows[1:mid], rows[mid+1:]
+```
+
+Implement `divs` that does many random projections dividing the data down to (say) sqrt(n) of the data.
+                                                Note: in the following code `leafs` is an accumulator passed
+                                                down the tree. When we return it, it is a list of lists
+                                                where each sublist are all the items in one leaf.
+
+```lua
+function Sample:divs(the,    leafs)
+  leafs={}
+  self:_divs(self.rows,0, the,leafs,cols or self.x,(#self.rows)^the.enough)
+  -- table.sort(leafs) -- dont do, yet
+  return leafs end
+
+function Sample:_divs(rows,lvl,the,leafs enough,
+              pre,left,right)
+  if   the.loud -- very useful debugging aid
+  then pre="|.. ";print(pre:rep(lvl)..tostring(#rows)) 
+  end
+  if   #rows < 2*enough 
+  then leafs[#leafs+1] =  rows
+  else left,right= self:div1(the,cols,rows)
+       self:_divs(left, lvl+1, the, leafs, enough) 
+       self:_divs(right,lvl+1, the, leafs, enough) end  end 
+```
+ 
+-- Returns the leaf clusters
+
+ 
+                                                
+                                                
