@@ -60,10 +60,19 @@ Well lets talk about that...</p>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video</a>)<br>
      <strike> <a href="docs/syllabus.md">Syllabus</a></strike>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a>)<br>
-      <a href="docs/background.md">Fairness101</a>
+     <strike> <a href="docs/background.md">Fairness101</a></strike>
      <br> 
      
   </dd>
+   <dt>
+    Details:
+  </dt>
+  <dd>
+      <strike><a href="docs/hw4.md">Less data(1)</a></strike>(<a href="https://ncsu.zoom.us/rec/share/GnJh9_ntMcr4qYY1iY6HPC0SDK5E_TXFTW_wMJUDOqgG2OVyZSKG5pwtO0nOG5bt.MXzqc04nvcBppFZN">video</a>)<br>
+       <a href="docs/range.md">Discretize</a><br>
+       <a href="docs/morefair.pdf">More fairness</a>
+
+</dd>
 </dl>
 
 <!-- -------------------------------- -->
@@ -72,11 +81,11 @@ Well lets talk about that...</p>
  
 </td>
 <td valign=top>
-Aug 18,&nbsp;eg0<br>
+<strike>Aug 18,&nbsp;eg0<br>
 Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>,<a href="/docs/eg1.md">eg1</a><br>
-Sep 01,&nbsp;<a href="/docs/hw2.md">hw2</a>,<a href="/docs/eg2.md">eg2</a><br>
-Sep 08,&nbsp;<a href="/docs/hw3.md">hw3</a>,eg3<br>
-Sep 15,&nbsp;hw4,eg4<br>
+   Sep 01,&nbsp;<a href="/docs/hw2.md">hw2</a>,<a href="/docs/eg2.md">eg2</a><br></strike>
+Sep 08,&nbsp;<a href="/docs/hw3.md">hw3</a><br>
+Sep 15,&nbsp;<a href="/docs/hw4.md#homework4">hw4</a>,<a href="/docs/eg3.md">eg3</a><br>
 Sep 22,&nbsp;hw5,eg5<br>
 Sep 29,&nbsp;hw6,eg6<br>
 Oct 06,&nbsp;hw7,eg7<br>
