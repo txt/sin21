@@ -68,7 +68,8 @@ Well lets talk about that...</p>
     Details:
   </dt>
   <dd>
-      <a href="docs/hw4.md">Less data(1)</a>  
+      <strike><a href="docs/hw4.md">Less data(1)</a></strike> (<a href="https://ncsu.zoom.us/rec/share/GnJh9_ntMcr4qYY1iY6HPC0SDK5E_TXFTW_wMJUDOqgG2OVyZSKG5pwtO0nOG5bt.MXzqc04nvcBppFZN">video</a>)
+</dd>
 </dl>
 
 <!-- -------------------------------- -->
