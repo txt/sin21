@@ -1,5 +1,5 @@
 <a name=top>
-<a  href="https://git.io/sin21"><img  src="/docs/img/sin1.png"></a>       
+<a  href="https://git.io/sin21"><img  width=400 src="/docs/img/sin1.png"></a>       
 <hr>
 <p>
 &nbsp;<a href="https://git.io/sin21">home</a> ::
