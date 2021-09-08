@@ -4,11 +4,11 @@
 # Ranges
 
 Avoid spurious distinctions!   
-Build simpler models!   
-Explain complex ideas, easier! Make models more ethical!
+Build simpler models!     
+Explain complex ideas, easier! Make models more ethical!     
 Discretize!
 
-<img width=700 src="https://www.saedsayad.com/images/Binning_1.png">
+<img  src="https://www.saedsayad.com/images/Binning_1.png">
 
 Discretization offers volumes, regions, where conclusions  hold.  
 
@@ -56,7 +56,7 @@ Some of the  thirds don't seem to matter.
       - that cut point needs to minimize the expected value of variability _V_  before and  after
 split: _V1,V2_
         - V1\*N1/N  +  V2\*N2/N
-    - [Chi-merge[(https://www.aaai.org/Papers/AAAI/1992/AAAI92-019.pdf) (ish)`
+    - [Chi-merge](https://www.aaai.org/Papers/AAAI/1992/AAAI92-019.pdf) (ish)`
       - used unsupervised discretization to divide the data
         - me: divide on sqrt(N), ignore splits with less than .3\*standard deviation
       - combine adjacent splits, if combining them does not reduce variability
@@ -87,7 +87,10 @@ Takes us  to some very simple, very effective inference loops
   - apply best range, recurse on surviving data . See [Fig.3](https://arxiv.org/pdf/1803.05067.pdf)
   - or, repeat, combine  the better  ranges into composite ranges . See [Fig.11](https://research.cs.queensu.ca/home/ahmed/home/teaching/CISC880/F10/papers/which_ASEJournal2010.pdf).
 
-## Code
+## Code (Chi-merge, ish)
+
+Aside: I've coded a lot of discretizers and the following is the  simplest, most useful.
+
 **ranges(xys :{{num,str}}, tiny :num=self:var()\*.3, ?enough :num=sqrt(N)): {range}**      
 
 Make a new range when       
