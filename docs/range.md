@@ -116,7 +116,7 @@ function ranges(xys, tiny, enough,         now,out,x,y)
    while width <4 and width<#xy/2 do width=1.2*width end --grow small widths
    now = Nums:new()
    out = {now}
-   for j,xy in sort(xys,"x") do
+   for j,xy in pairs(sort(xys,"x")) do
       x,y = xy[1],xy[2]
       if j < #xys - enough then -- (1)
          if x ~= xys[j+1][1] then -- (2)
@@ -148,7 +148,7 @@ function prune(b4,             j,tmp,n,a,b,cy)
       tmp[1+#tmp] = a
       j = j + 1
    end
-   return #tmp==#b4 and tmp or merge(tmp) end
+   return #tmp==#b4 and tmp or prune(tmp) end
 ```
  
 Symbol
