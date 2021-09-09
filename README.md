@@ -69,8 +69,8 @@ Well lets talk about that...</p>
   </dt>
   <dd>
       <strike><a href="docs/hw4.md">Less data(1)</a></strike>(<a href="https://ncsu.zoom.us/rec/share/GnJh9_ntMcr4qYY1iY6HPC0SDK5E_TXFTW_wMJUDOqgG2OVyZSKG5pwtO0nOG5bt.MXzqc04nvcBppFZN">video</a>)<br>
-       <a href="docs/range.md">Discretize</a><br>
-       <a href="docs/morefair.pdf">More fairness</a>
+      <strike><a href="docs/range.md">Discretize</a></strike>(<a href="https://ncsu.zoom.us/rec/share/0PJRGYoVKu9BCygzXEb7DJOLznSJz6gsmLnQMhf_D7r6Zwedm3lMg7SZSN-WgOwp.OaRonaO5LYzhTLiO">video</a>)<br>
+      <a href="docs/morefair.pdf">More fairness</a>
 
 </dd>
 </dl>
