@@ -86,7 +86,7 @@ Aug 25,&nbsp;<a href="/docs/hw1.md">hw1</a>,<a href="/docs/eg1.md">eg1</a><br>
    Sep 01,&nbsp;<a href="/docs/hw2.md">hw2</a>,<a href="/docs/eg2.md">eg2</a><br></strike>
 <strike>Sep 08,&nbsp;<a href="/docs/hw3.md">hw3</a><br>
 Sep 15,&nbsp;<a href="/docs/hw4.md#homework4">hw4</a>,<a href="/docs/eg3.md">eg3</a></strike><br>
-Sep 22,&nbsp;<a href="/docs/hw5">hw5.md</a>,<a href="/docs/eg4.md">eg4</a><br>
+Sep 22,&nbsp;<a href="/docs/hw5.md">hw5</a>,<a href="/docs/eg4.md">eg4</a><br>
 Sep 29,&nbsp;hw6,eg6<br>
 Oct 06,&nbsp;hw7,eg7<br>
 Oct 13,&nbsp;hw8,eg8<br>
