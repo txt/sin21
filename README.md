@@ -70,7 +70,8 @@ Well lets talk about that...</p>
   <dd>
       <strike><a href="docs/hw4.md">Less data(1)</a></strike>(<a href="https://ncsu.zoom.us/rec/share/GnJh9_ntMcr4qYY1iY6HPC0SDK5E_TXFTW_wMJUDOqgG2OVyZSKG5pwtO0nOG5bt.MXzqc04nvcBppFZN">video</a>)<br>
       <strike><a href="docs/range.md">Discretize</a></strike>(<a href="https://ncsu.zoom.us/rec/share/0PJRGYoVKu9BCygzXEb7DJOLznSJz6gsmLnQMhf_D7r6Zwedm3lMg7SZSN-WgOwp.OaRonaO5LYzhTLiO">video</a>)<br>
-      <a href="docs/morefair.pdf">More fairness</a>
+      <a href="docs/morefair.pdf">More fairness</a><br>
+      <a href="https://ncsu.zoom.us/rec/share/3LdTOjjmw1XWMDed7JVEdkhHKsxVQtpXz1ZBlIzoqC_wq5jjm6at9LZJP78YT8tt.5xue7TGzxVz1LLUK">Briefing,hw5</a>(code=9?3+o#VG)
 
 </dd>
 </dl>
