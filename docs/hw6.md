@@ -268,7 +268,7 @@ The following is called as follows
 
 And finally:
 
-```
+```python
 class Fft(o):
   def __init__(i,all,my,branch,branches,stop = None, level=0):
     i.my       = my
