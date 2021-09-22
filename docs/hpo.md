@@ -153,13 +153,34 @@ In summary,
 - In practice: [Villalobos-Arias et al.](https://dl.acm.org/doi/abs/10.1145/3475960.3475986) show that for effort estimation _n=60_
   samples does as well as anything else.
 
-e.g. at each level of the FFT trees we are building, 
 
-- our leaves can either exit to the target or its opposite
+ 
+## Timm's RUle
+ 
+Returning to stats again, hypotheses tests at the 95% level say that
+  -  things are _not_ distinguisable if they overlap by more tha 5% of their probability mass. 
+  - This occurs at &plusminus; 1.96 of the standard deviations 
+ 
+That is:
+ - if you are studying something with performance ranges 0..1 
+ - which show a standard deviation in their behavior of 10%,
+ - Then that device has distinguishable regions of size 1.96*.1 &approx; 2
+ - And  16 random probes  would be enough to get you 95% sure of finding something indistinguishable from the best value.
+   - Evidence (see last line of above table)
+
+## Timm's Rule and FFTs
+ 
+Consider our FFT trees. Ata each level of   FFT trees:
+
+- Our leaves can either exit to the target or its opposite
 - So all tree of high `d` is really `2<sup>d</sup>` random probes around the output space.
 
 Here are four trees that effectively sample across the two distnbutions: 
-- Technical,y these are 1110, 1010, 0110, 0010 trees (note that the last digit is always the negation of the second last)
+- Technically these are 1110, 1010, 0110, 0010 trees 
+- Note two conventions:
+  - Exits to the right are "1"
+  - The second last decision is the bottom left
+  - Which leaves only one decision for the last one (the negation of the second last).
 
 <img width=700 src="https://user-images.githubusercontent.com/29195/134373379-efd03cfa-3ca2-4928-936c-9f62710a3882.png">
                                                                                                                       
@@ -172,21 +193,5 @@ Note that they throw themselves around the output space, effectively performing 
   models) would be sufficient to be 95% confident that we can find things in a space that divides into distinguishable regions of size 0.2.
 - Which explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
   - Here, FFT trees of depth 4 beat several supposedly better learners.    
- 
-## Timm's RUle
- 
-Returning to stats again, hypotheses tests at the 95% level say that
-  -  things are _not_ distinguisable if they overlap by more tha 5% of their probability mass. 
-  - This occurs at &plusminus; 1.96 of the standard deviations
-  - 0.2/1.96 &approx; 0.1; 
- 
-That is:
- - if you are studying something with performance ranges 0..1 
- - which show a standard deviation in their behavior of 10%,
- - then relax and do 16 random probes 
- - that would be enough to get you 95% sure of finding something indistinguishable from the best value.
-
- 
-                                                                                                                      
                                                                                                                       
 
