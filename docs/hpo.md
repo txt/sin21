@@ -40,7 +40,7 @@ The learner can have multiple control parameters, called hyper-parameters:
      
 ![image](https://user-images.githubusercontent.com/29195/134363838-694ffcab-1951-4e1b-983a-820d0ceb466a.png)
 
-[Aggawral etc al.] argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
+[Aggawral etc al.](https://bib.dbvis.de/uploadedFiles/155.pdf) argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
 - Strangely, I've found cases where [p=3](https://github.com/timm/lean/blob/master/src/knn.lua#L76-L77) was best. Go figure. 
 - Guess you have to run experiments to work out what works best for your own data.
 
