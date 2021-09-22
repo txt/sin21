@@ -66,7 +66,7 @@ To build a forest of FFT trees
    - Copy the branch generated from the root then recurse to build a "0" tree
 - At the end, add the current branch to the output list.
 
-## Example of an FFT forst
+## Example of an FFT forest
 From auto93. Recall from before that the best results in auto93 were found in one small cluster. 
 - Here, the 11110 tree (line3-line7) fails to find it since its first division eats up half the data, leaving worst stuff for later reasoning
 - But the 00001 tree (line95-line99) finds i
