@@ -94,7 +94,7 @@ Warning: when dealing with more than 2 dimensions
 
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
      
-<img wdith=400 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
+<img width=400 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
 
 
 What does "near-optimum" mean? When is some number indistinguishably  close  to "optimum"?
@@ -128,24 +128,24 @@ Turning now to sampling theory:
 - If something happens at probability _p_ (e.g. we find our optimal solution using random search at probability 1/17=0.058)
 - Then it does not happen at probability _1-p_
 - So after `n` random samples, it does not happen at probability _(1 - p)<sup>n</sup>_
-- So can see it  at confidence )C(n,p) = 1 - (1 - p)<sup>n</sup>_
+- So can see it  at confidence _C(n,p) = 1 - (1 - p)<sup>n</sup>_
 - Which rearranges to _n(C,p) =log(1-C)/log(1-p)_
 
 So:
 
-|p  | C=Confidence | n(C,0.058)| notes|
-|---|-----------=|=----------|----|
-|0.058| 0.9         |  39       | The above Sawilowsky recommendation.|
-|0.058| 0.95        |  52       | |
-|.058| 0.99        |  78       ||
-|0.058| 0.999       | 116       ||
-|0.058| 0.9999      | 154       ||
-|0.029  | 0.9          | 78  |making the  target twice as  hard to find|
-|0.029  | 0.95  |  101 ||
-|0.029  | 0.99  |  156 ||
-|0.029  | 0.999 | 234  ||
-|0.029 | 0.9999 | 312||
-|0.2   | 0.95   | 14 | the FFT case, discussed below|
+|p    | C=Confidence | n(C,0.058)| notes|
+|-----|--------------|-----------|------|
+|0.058| 0.9          |  39       | The above Sawilowsky recommendation.|
+|0.058| 0.95         |  52       |                                     |
+|0.058| 0.99         |  78       |                                     |
+|0.058| 0.999        | 116       |                                     |
+|0.058| 0.9999       | 154       |                                     |
+|0.029| 0.9          | 78        |making the  target twice as  hard to find|
+|0.029| 0.95         |  101      |  |
+|0.029| 0.99         |  156      | |
+|0.029| 0.999        | 234       | |
+|0.029| 0.9999       | 312       | |
+|0.2  | 0.95          | 14       | the FFT case, discussed below|
 
 
 In summary, 
