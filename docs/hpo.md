@@ -15,6 +15,11 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 # Ethical, Understandable, Audit-able
 
+Is AI fundamentally inexplicable? Incomprehensible? 
+The 
+internal search space  of  options within an AI systems seems vast.
+Well, lets look into that....
+
 [Valerdi et al.](https://ieeexplore.ieee.org/document/5556044) reports experiences gained when experts review data.
  In that work, it took three rounds of 3 hour meetings
 for  experts to agree on their interpretation (good bad, big, small, slow to build, fast to build) of a few dozen examples
@@ -23,10 +28,19 @@ for  experts to agree on their interpretation (good bad, big, small, slow to bui
 So lets call that Valerdi's rule: to make something explicable, you can only show them more than two dozen attributes\*two dozen rows
 per day.
 
-So is AI fundamentally inexplicable? Incomprehensible? 
-The 
-internal search space  of  options within an AI systems seems vast.
-Well, lets look into that....
+ Of course, there are 
+[impressive multi-dimensions explanation tools](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html)
+ that report to be able to let humans find important distinctions in
+complex data spaces. 
+- But on Tuesdays and Thursdays I fret that what is being shown there is more a quirk of that explanation system rather than a
+a feature of the original data. 
+- Also, on Mondays, Wednesdays and Fridays, I doubt if those extra tools are needed since I seem to be able
+to reduce data to small spaces (see below). 
+- And then on the weekends I think that the point is moot since I don't want to explain data, I want
+to offer regions defining acceptable policies; i.e. I want to show rules generated from rules-- which humans can check with just
+a Valerdi-level of effort.
+
+Now lets look at ways to generate my kind of rules.
 
 ## Hyperparameter Optimization
 
@@ -158,13 +172,13 @@ In summary,
 ## Timm's RUle
  
 Returning to stats again, hypotheses tests at the 95% level say that
-  -  things are _not_ distinguisable if they overlap by more tha 5% of their probability mass. 
+  -  things are _not_ distinguishable if they overlap by more tha 5% of their probability mass. 
   - This occurs at &plusminus; 1.96 of the standard deviations 
  
 That is:
  - if you are studying something with performance ranges 0..1 
  - which show a standard deviation in their behavior of 10%,
- - Then that device has distinguishable regions of size 1.96*.1 &approx; 2
+ - Then that device has distinguishable regions of size 1.96\*.1 &approx; 2
  - And  16 random probes  would be enough to get you 95% sure of finding something indistinguishable from the best value.
    - Evidence (see last line of above table)
 
