@@ -83,7 +83,7 @@ Warning: when dealing with more than 2 dimensions
 
 - Really slow
 - If you want to explain what  effects hold over a region of parameters, you need some secondary process.
-  - .e.g. to determine how much can you fiddle a parameter without losing "best";
+  - e.g. to determine how much can you fiddle a parameter without losing "best";
   - e.g. when users ask you for a "policy"; i.e. some range of acceptable behavior
 - Can be [surprisingly ineffective](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf).
   -  looking at several relatively similar data sets (from different distributions) shows us that different data sets need very different hyperparameters
@@ -94,18 +94,18 @@ Warning: when dealing with more than 2 dimensions
 
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
      
-<img width=400 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
+<img width=500 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
 
 
 What does "near-optimum" mean? When is some number indistinguishably  close  to "optimum"?
 
 - [Rosenthal et al.](https://www.google.com/books/edition/The_Handbook_of_Research_Synthesis/p-aFAwAAQBAJ?hl=en&gbpv=1&pg=PA231&printsec=frontcover) discuss different methods for asserting that
-one result is with some small effect of another (i.e. it is “close to”). 
+one result is with some small effect of another (i.e. it is “close to”)_ 
 - They list
 dozens of effect size tests that divide into two groups: 
   - the `r` group 
-based on the Pearson correlation coefficient; 
-  - or the `d` family that is based on
+based on the Pearson correlation coefficient;  or
+  - the `d` family that is based on
 absolute differences normalized by (e.g.) the size of the standard deviation.
     - e.g. two numbers are essentially the same if they differ by less than &delta;\*&sigma; (the standard deviation)
 
@@ -127,13 +127,13 @@ Turning now to sampling theory:
 
 - If something happens at probability _p_ (e.g. we find our optimal solution using random search at probability 1/17=0.058)
 - Then it does not happen at probability _1-p_
-- So after `n` random samples, it does not happen at probability _(1 - p)<sup>n</sup>_
+- So after _n_ random samples, it does not happen at probability _(1 - p)<sup>n</sup>_
 - So can see it  at confidence _C(n,p) = 1 - (1 - p)<sup>n</sup>_
 - Which rearranges to _n(C,p) =log(1-C)/log(1-p)_
 
 So:
 
-|p    | C=Confidence | n(C,0.058)| notes|
+|p    | C=Confidence | n(C,p) | notes|
 |-----|--------------|-----------|------|
 |0.058| 0.9          |  39       | The above Sawilowsky recommendation.|
 |0.058| 0.95         |  52       |                                     |
@@ -149,10 +149,17 @@ So:
 
 
 In summary, 
-- In theory: if you can relax a little, 50 to 100 random samples does pretty good.
-- In practice: 
+- In theory: depending on how much you want to relax, a few dozen samples  does pretty good.
+- In practice: [Villalobos-Arias et al.](https://dl.acm.org/doi/abs/10.1145/3475960.3475986) show that for effort estimation _n=60_
+  samples does as well as anything else.
 
 e.g. at each level of the FFT trees we are building, 
 
 - our leaves can either exit to the target or its opposite
 - So all tree of high `d` is really `2<sup>d</sup>` random probes around the output space.
+
+Here are four trees that effectively sample across the two distnbutions: 
+- Technical,y these are 1110, 1010, 0110, 0010 trees (note that the last digit is always the negation of the second last)
+
+
+
