@@ -40,7 +40,7 @@ The learner can have multiple control parameters, called hyper-parameters:
      
 ![image](https://user-images.githubusercontent.com/29195/134363838-694ffcab-1951-4e1b-983a-820d0ceb466a.png)
 
-[Aggawral etc al.](https://bib.dbvis.de/uploadedFiles/155.pdf) argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
+[Aggawral et al.](https://bib.dbvis.de/uploadedFiles/155.pdf) argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
      
 - Strangely, I've found cases where [p=3](https://github.com/timm/lean/blob/master/src/knn.lua#L76-L77) was best. Go figure. 
 - Guess you have to run experiments to work out what works best for your own data.
@@ -51,8 +51,8 @@ searching for the right hyper-parameters can take  a long search.
 - [Section 3](http://menzies.us/pdf/11teak.pdf#page=6) lists more than 
   17,000 ways to configure nearest neighbor seen in the recent SE literature.
 - When you combine all the learner options with all the pre-processing options (how many bins? What _iotoa_ is enough     to distinguish two ranges? etc)
-  then you can be faced with billions (or more) options.
-  (see  [Table1](https://arxiv.org/pdf/1902.01838.pdf)  lists the
+  then you can be faced with billions of options, or more
+  (see  [Table1](https://arxiv.org/pdf/1902.01838.pdf#apge=2) 
 
 ## Hyperparameter Optimization: Grid Search
 
@@ -63,11 +63,14 @@ Benefits:
 - Grid search is simple to implement and parallelization is trivial;
 - Grid search (with access to a compute cluster) typically finds a better model
 - Grid search is reliable in low dimensional spaces (e.g., 1-d, 2-d).
-- Implemented in many tools (e.g.t eh CARET package)
+- Implemented in many tools (e.g.t he CARET package)
 
 Warning: when dealing with more than 2 dimensions
 
 - Really slow
+- If you want to explain what  effects hold over a region of parameters, you need some secondary process.
+  - .e.g. to determine how much can you fiddle a parameter without losing "best";
+  - e.g. when users ask you for a "policy"; i.e. some range of acceptable behavior
 - Can be [surprisingly ineffective](https://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf).
   -  looking at several relatively similar data sets (from different distributions) shows us that different data sets need very different hyperparameters
   -  A grid with sufficient granularity to optimizing hyper-parameters for all data sets must consequently be inefficient for each individual data set because of the curse of dimensionality
