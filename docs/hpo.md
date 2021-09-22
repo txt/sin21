@@ -41,15 +41,16 @@ The learner can have multiple control parameters, called hyper-parameters:
 ![image](https://user-images.githubusercontent.com/29195/134363838-694ffcab-1951-4e1b-983a-820d0ceb466a.png)
 
 [Aggawral etc al.](https://bib.dbvis.de/uploadedFiles/155.pdf) argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
+     
 - Strangely, I've found cases where [p=3](https://github.com/timm/lean/blob/master/src/knn.lua#L76-L77) was best. Go figure. 
 - Guess you have to run experiments to work out what works best for your own data.
 
 Warning: 
 searching for the right hyper-parameters can take  a long search. 
 
-- [Section 3](http://menzies.us/pdf/11teak.pdf#page=6 
-  lists more than 17,000 ways to configure nearest neighbor seen in the recent SE literature.
-- When you combine all the learner options with all the pre-processing options (how many bins? What _iotoa_ is enough to distinguish two ranges? etc)
+- [Section 3](http://menzies.us/pdf/11teak.pdf#page=6) lists more than 
+  17,000 ways to configure nearest neighbor seen in the recent SE literature.
+- When you combine all the learner options with all the pre-processing options (how many bins? What _iotoa_ is enough     to distinguish two ranges? etc)
   then you can be faced with billions (or more) options.
   (see  [Table1](https://arxiv.org/pdf/1902.01838.pdf)  lists the
 
