@@ -79,6 +79,9 @@ Warning: when dealing with more than 2 dimensions
 ## Hyperparameter Optimization: Random Search
 
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
+     
+![image](https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png)
+
 
 What does "near-optimum" mean? When is some number indistinguishably  close  to "optimum"?
 
