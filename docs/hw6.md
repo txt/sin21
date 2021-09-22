@@ -13,7 +13,7 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <br>
 <hr>
 
-# HW6: Build an # FFT forest
+# HW6: Build an  FFT forest
 
 In today's exciting episode you will learn how to generate a succinct, understandable rule that selects from best/worst regions in
 a multi-objective space.
