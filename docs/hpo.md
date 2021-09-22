@@ -13,8 +13,22 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <br>
 <hr>
 
+# Ethical, Understandable, Audit-able
 
-# Hyperparameter Optimisation
+[Valerdi et al.](https://ieeexplore.ieee.org/document/5556044) reports experiences gained when experts review data.
+ In that work, it took three rounds of 3 hour meetings
+for  experts to agree on their interpretation (good bad, big, small, slow to build, fast to build) of a few dozen examples
+(where those examples are expressed in terms of two dozen attributes).
+
+So lets call that Valerdi's rule: to make something explicable, you can only show them more than two dozen attributes\*two dozen rows
+per day.
+
+So is AI fundamentally inexplicable? Incomprehensible? 
+The 
+internal search space  of  options within an AI systems seems vast.
+Well, lets look into that....
+
+## Hyperparameter Optimization
 
 Supervised learners try to build some function `f` that can map `x` into `y`
 
@@ -80,13 +94,12 @@ Warning: when dealing with more than 2 dimensions
 
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
      
-![image](https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png)
+<img wdith=400 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
 
 
 What does "near-optimum" mean? When is some number indistinguishably  close  to "optimum"?
 
-- [Rosenthal et al.](https://www.google.com/books/edition/The_Handbook_of_Research_Synthesis/p-aFAwAAQBAJ?hl=en&gbpv=1&pg=PA231&printsec=frontcover)
-- discuss different methods for asserting that
+- [Rosenthal et al.](https://www.google.com/books/edition/The_Handbook_of_Research_Synthesis/p-aFAwAAQBAJ?hl=en&gbpv=1&pg=PA231&printsec=frontcover) discuss different methods for asserting that
 one result is with some small effect of another (i.e. it is “close to”). 
 - They list
 dozens of effect size tests that divide into two groups: 
@@ -96,15 +109,15 @@ based on the Pearson correlation coefficient;
 absolute differences normalized by (e.g.) the size of the standard deviation.
     - e.g. two numbers are essentially the same if they differ by less than &delta;\*&sigma; (the standard deviation)
 
-Since 
-[Rosenthal et al.](https://www.google.com/books/edition/The_Handbook_of_Research_Synthesis/p-aFAwAAQBAJ?hl=en&gbpv=1&pg=PA231&printsec=frontcover)
- comment that “none is intrinsically better than the other”, lets just use the simplest:
-
-- The [Sawilowsky](https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1536&context=jmasm)
-  paper from  2009 has 1100 citations.
-- They asserts that “small” and “medium” effects can be measured using &delta;=0.2 and &delta;=0.5 (respectively). 
-- Splitting the difference, we will analyze this data looking for differences larger than &delta; = (0.5 + 0.2)/2 = 0.35.
-
+- Since 
+  [Rosenthal et al.](https://www.google.com/books/edition/The_Handbook_of_Research_Synthesis/p-aFAwAAQBAJ?hl=en&gbpv=1&pg=PA231&printsec=frontcover)
+   comment that “none is intrinsically better than the other”, lets just use the simplest:
+  
+  - The [Sawilowsky](https://digitalcommons.wayne.edu/cgi/viewcontent.cgi?article=1536&context=jmasm)
+    paper from  2009 has 1100 citations.
+  - They asserts that “small” and “medium” effects can be measured using &delta;=0.2 and &delta;=0.5 (respectively). 
+  - Splitting the difference, we will analyze this data looking for differences larger than &delta; = (0.5 + 0.2)/2 = 0.35.
+  
 Now a normal curve effectively runs &plusmn; 3 standard deviations covers 99% of the space. That is all normal curves are 6 standard deviations wide
 which, using Sawilowsky's rule, divides into about 6/.35=17 distinguishable regions.
 
@@ -112,21 +125,21 @@ which, using Sawilowsky's rule, divides into about 6/.35=17 distinguishable regi
 
 Turning now to sampling theory:
 
-- If something happens at probability `p` (e.g. we find our optimal solution using random search at probability 1/17=0.058)
-- Then it does not happen at probability `1-p`
-- So after `n` random samples, it does not happen at proability `(1 - p)<sub>n</sup>`
-- So can see it  at confidence `C(n,p) = 1 - (1 - p)<sub>n</sup>`
-- Which rearranges to `n(C,p) =log(1-C)/log(1-p)`
+- If something happens at probability _p_ (e.g. we find our optimal solution using random search at probability 1/17=0.058)
+- Then it does not happen at probability _1-p_
+- So after `n` random samples, it does not happen at probability _(1 - p)<sup>n</sup>_
+- So can see it  at confidence )C(n,p) = 1 - (1 - p)<sup>n</sup>_
+- Which rearranges to _n(C,p) =log(1-C)/log(1-p)_
 
 So:
 
-|p| C=Confidence | n(C,0.058)| notes|
+|p  | C=Confidence | n(C,0.058)| notes|
 |---|-----------=|=----------|----|
-|0.058| 0.9         |  39       | The above Sawilowsky recommendation.a|
-|0.058--| 0.95        |  52       | |
-|.058--| 0.99        |  78       ||
-|0.058--| 0.999       | 116       ||
-|0.058--| 0.9999      | 154       ||
+|0.058| 0.9         |  39       | The above Sawilowsky recommendation.|
+|0.058| 0.95        |  52       | |
+|.058| 0.99        |  78       ||
+|0.058| 0.999       | 116       ||
+|0.058| 0.9999      | 154       ||
 |0.029  | 0.9          | 78  |making the  target twice as  hard to find|
 |0.029  | 0.95  |  101 ||
 |0.029  | 0.99  |  156 ||
