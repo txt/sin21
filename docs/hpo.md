@@ -171,7 +171,12 @@ Note that they throw themselves around the output space, effectively performing 
                                                                                                                       (which generates 2<sup>4</sup>=16 
   models) would be sufficient to be 95% confident that we can find things in a space that divides into distinguishable regions of size 0.2.
 - Which explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
-  - Here, FFT trees of depth 4 beat several supposedly better learners.                                                                                                     
+  - Here, FFT trees of depth 4 beat several supposedly better learners.    
+- Returning to stats again, hypotheses tests at the 95% level say that
+  -  things are _not_ distinguisable if they overlap by more tha 5% of their probability mass. 
+  - This occurs at &plusminus; 1.96 of the standard deviations
+  - 0.2/1.96 &approx; 0.1; i.e. if you are studying something with performance ranges 0..1 and which show a standard deviation in their behavior of 10%,
+    then 16 random probes would be enough to get you 95% sure of finding something indistinguishable from the best value.
                                                                                                                       
                                                                                                                       
 
