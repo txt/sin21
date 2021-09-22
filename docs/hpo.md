@@ -47,7 +47,7 @@ The learner can have multiple control parameters, called hyper-parameters:
 Warning: 
 searching for the right hyper-parameters can take  a long search. 
 
-- [Section 3](http://menzies.us/pdf/11teak.pdf) 
+- [Section 3](http://menzies.us/pdf/11teak.pdf#page=6 
   lists more than 17,000 ways to configure nearest neighbor seen in the recent SE literature.
 - When you combine all the learner options with all the pre-processing options (how many bins? What _iotoa_ is enough to distinguish two ranges? etc)
   then you can be faced with billions (or more) options.
