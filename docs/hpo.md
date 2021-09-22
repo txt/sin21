@@ -13,6 +13,8 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 <br>
 <hr>
 
+ <em>Todo: state Timm's rule up front. include the skew results and conjuction of skew calculator</em>
+ 
 # Ethical, Understandable, Audit-able
 
 Is AI fundamentally inexplicable? Incomprehensible? 
