@@ -31,11 +31,14 @@ The learner can have multiple control parameters, called hyper-parameters:
 - `k` (obviously) 
 - the combination function (mean? mode? weight closer items more than those furtger away? etc)
 - the distance function. E.g. Euclidan distances    
-  `d=(&sum (x-y)<sup>2</sup>)<sub>1/2</sup>`   generalizes to 
-  `d=(&sum (x-y)<sup>p</sup>)<sub>1/p</sup>`   here `p` is a hyper-parameter 
-  - p=1s: Manhattan (city block) distance
+  d=(&sum (x-y)<sup>2</sup>)<sub>1/2</sup>  generalizes to 
+  d=(&sum (x-y)<sup>p</sup>)<sub>1/p</sup>   here `p` is a hyper-parameter 
+  - p=1: Manhattan (city block) distance
   - p=2: standard Euclidean distance
   - p goes to &infty; is the  Chebyshev distance  (the distance between anything is the distance of the greatest separation of any attribute) 
+     
+![image](https://user-images.githubusercontent.com/29195/134363838-694ffcab-1951-4e1b-983a-820d0ceb466a.png)
+
 - [Aggawral etc al.] argue that the _larger_ the dimensions, the _smaller_ you want p (e.g. p=1)
 - Strangely, I've found cases where [p=3](https://github.com/timm/lean/blob/master/src/knn.lua#L76-L77) was best. Go figure. 
 - Guess you have to run experiments to work out what works best for your own data.
