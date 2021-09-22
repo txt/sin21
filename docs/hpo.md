@@ -161,5 +161,16 @@ e.g. at each level of the FFT trees we are building,
 Here are four trees that effectively sample across the two distnbutions: 
 - Technical,y these are 1110, 1010, 0110, 0010 trees (note that the last digit is always the negation of the second last)
 
-
+<img width=500 src=https://user-images.githubusercontent.com/29195/134373379-efd03cfa-3ca2-4928-936c-9f62710a3882.png">
+                                                                                                                      
+Note that they throw themselves around the output space, effectively performing 16 random searchers. 
+                                                                                                                      
+- Look at the last line of
+                                                                                                                      the above table
+                                                                                                                      we note that an FFT tree of depth 4  
+                                                                                                                      (which has 2<sup>4</sup>=16_ options) would be sufficient to be 95% confident that we can find things in a space that divides into distinguishable regions of size 0.2.
+- Which explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
+  - Here, FFT trees of depth 4 beat several supposedly better learners.                                                                                                     
+                                                                                                                      
+                                                                                                                      
 
