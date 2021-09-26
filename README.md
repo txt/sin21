@@ -57,7 +57,7 @@ Well lets talk about that...</p>
   </dt>
   <dd>
      <strike> <a href="docs/00hello.md">Hello</a>  </strike>
-    (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video</a>)<br>
+    (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video</a>)(sinless1!)<br>
      <strike> <a href="docs/syllabus.md">Syllabus</a></strike>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a>)<br>
      <strike> <a href="docs/background.md">Fairness101</a></strike>
