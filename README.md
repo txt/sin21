@@ -52,6 +52,7 @@ Well lets talk about that...</p>
 
 <!-- -------------------------------- -->
 <dl>
+   (password=sinless1!)
   <dt>
     Introduction:
   </dt>
@@ -60,7 +61,7 @@ Well lets talk about that...</p>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video</a>)<br>
      <strike> <a href="docs/syllabus.md">Syllabus</a></strike>
     (<a href="https://ncsu.zoom.us/rec/share/AX2vzgvvsZy9eEP71znld1bgGEFQ0I6Dx5e0l0tqaBO7E7Txp7yyvDFduUNqYr5w.IgqLufs4YcLUx7H5?startTime=1629318119000">video:</a>)<br>
-     <strike> <a href="docs/background.md">Fairness101</a></strike>
+     <strike> <a href="docs/background.md">Fairness101</a></strike>(<a href="https://ncsu.zoom.us/rec/share/opjg03h9IlqooBmrm71n1BmeSyX1scSpOpboBLsRzgvOgiDh_OPBqM9camZn6Ncd.wiAtwxT7s886aU06">video</a>)
      <br> 
      
   </dd>
@@ -70,8 +71,8 @@ Well lets talk about that...</p>
   <dd>
       <strike><a href="docs/hw4.md">Less data(1)</a></strike>(<a href="https://ncsu.zoom.us/rec/share/GnJh9_ntMcr4qYY1iY6HPC0SDK5E_TXFTW_wMJUDOqgG2OVyZSKG5pwtO0nOG5bt.MXzqc04nvcBppFZN">video</a>)<br>
       <strike><a href="docs/range.md">Discretize</a></strike>(<a href="https://ncsu.zoom.us/rec/share/0PJRGYoVKu9BCygzXEb7DJOLznSJz6gsmLnQMhf_D7r6Zwedm3lMg7SZSN-WgOwp.OaRonaO5LYzhTLiO">video</a>)<br>
-      <a href="https://ncsu.zoom.us/rec/share/3LdTOjjmw1XWMDed7JVEdkhHKsxVQtpXz1ZBlIzoqC_wq5jjm6at9LZJP78YT8tt.5xue7TGzxVz1LLUK">Briefing,hw5</a>(code=9?3+o#VG)<br>
-      <a href="/docs/hpo.md">HPO</a>
+     <strike> <a href="https://ncsu.zoom.us/rec/share/3LdTOjjmw1XWMDed7JVEdkhHKsxVQtpXz1ZBlIzoqC_wq5jjm6at9LZJP78YT8tt.5xue7TGzxVz1LLUK">Briefing,hw5</a></strike>(<a href="https://ncsu.zoom.us/rec/share/bPgZnvx53ukqIHJMUnVBtI14ppcQW9O4Hdo3oN41gJd8oi3LCL5ofHKBsFrjF1Gq.coFrpli7xasp9rnt">video</a>)   <br>
+      <strike>  <a href="/docs/hpo.md">HPO</a></strike>(<a href="https://ncsu.zoom.us/rec/share/xROYvHQSiLyUp4pVvHSk_LgcnrlKZLA5cCB_HaTQeEND63G70iQArq0qy4KgPnyt.yTYf_12aLOxgpwCA">video</a>)
 </dd>
 </dl>
 
