@@ -108,6 +108,12 @@ Warning: when dealing with more than 2 dimensions
 
 ## Hyperparameter Optimization: Random Search
 
+Every learner's performance  varies according to the trainin data.
+- Run 20 experiements, each time using 90% of the training data (picked at random), you will get a _wriggle_ (call it epsilon &epsilon; 
+
+<img src="https://camo.githubusercontent.com/123a3c476b56327442750f71c013596a4b379220c5dc83de213f58ddf340576f/68747470733a2f2f7777772e7265736561726368676174652e6e65742f70726f66696c652f5869616e672d4368656e2d32322f7075626c69636174696f6e2f3331393038383538372f6669677572652f666967332f41533a37313935333438383132363737313240313534383536313839323938302f5468652d726573756c742d6f662d53636f74742d4b6e6f74742d746573742d696e2d63726f73732d76616c69646174696f6e2d7363656e6172696f2e706e67" width=600>
+
+
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
      
 <img width=500 src="https://user-images.githubusercontent.com/29195/134368806-eaaddad3-a4a9-41dd-825c-2d741509685d.png">
@@ -171,7 +177,7 @@ In summary,
 
 
  
-## Timm's RUle
+### Timm's RUle
  
 Returning to stats again, hypotheses tests at the 95% level say that
   -  things are _not_ distinguishable if they overlap by more tha 5% of their probability mass. 
@@ -184,7 +190,7 @@ That is:
  - And  16 random probes  would be enough to get you 95% sure of finding something indistinguishable from the best value.
    - Evidence (see last line of above table)
 
-## Timm's Rule and FFTs
+### Timm's Rule and FFTs
  
 Consider our FFT trees. Ata each level of   FFT trees:
 
