@@ -232,3 +232,7 @@ Note that this nearly explains certain surprising [recent successes (see Figure 
   - Here, FFT trees of depth 4 beat several supposedly better learners.    
                                                                                                                       
 But we need to talk about bias in the search space.
+ 
+ ![image](https://user-images.githubusercontent.com/29195/135328621-6d94ff86-d28f-45cb-9d32-e7d453ca9ab3.png)
+
+
