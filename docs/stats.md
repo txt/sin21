@@ -337,7 +337,7 @@ significance. For example:
   International Conference on Software Engineering (ICSE '13). IEEE Press, Piscataway,
   NJ, USA, 882-890.
 
-<img src="img/bugs.png"><br>
+<img width=500 src="https://user-images.githubusercontent.com/29195/135187407-f898daf2-3c78-4378-8077-95177d6f2645.png"><br>
 
 For these reasons, standard statistical tests are coming under fire:
 
@@ -432,11 +432,11 @@ safer, but somewhat slower, procedure:
 
 The world is not normal:
 
-<img src="img/notnorm4.png"><br>
-<img src="img/notNorm1.png"><br>
-<img src="img/notnorm2.png"><br>
-<img src="img/notnorm6.gif"><br>
-<img src="img/notnorm5.png"><br>
+<img src="https://github.com/txt/fss17/raw/master/img/notnorm4.png"><br>
+<img src="https://github.com/txt/fss17/raw/master/img/notnorm2.png"><br>
+<img src="https://github.com/txt/fss17/raw/master/img/notnorm6.gif"><br>
+<img src="https://github.com/txt/fss17/raw/master/img/notnorm5.png"><br>
+<img src="https://github.com/txt/fss17/raw/master/img/notnorm8.png"><br>
 
 This last one is a thing of beauty. Its 50 different SQL queries and the distribution of times
 CPU is waiting on hard drive i/o:
