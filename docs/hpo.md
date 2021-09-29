@@ -222,14 +222,13 @@ Here are four trees that effectively sample across the two distnbutions:
 
 <img width=700 src="https://user-images.githubusercontent.com/29195/134373379-efd03cfa-3ca2-4928-936c-9f62710a3882.png">
                                                                                                                       
-Note that they throw themselves around the output space, effectively performing 16 random searchers. 
-                                                                                                                      
-- Look at the last line of
-                                                                                                                      the above table
-                                                                                                                      we note that an FFT tree of depth 4  
-                                                                                                                      (which generates 2<sup>4</sup>=16 
-  models) would be sufficient to be 95% confident that we can find things in a space that divides into distinguishable regions of size 0.2.
-- Which explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
+Note that they throw themselves around the output space, effectively performing 8 random searchers. 
+ 
+ For N=2 goals, how many randoms earcehrs are enough?
+ 
+ ![image](https://user-images.githubusercontent.com/29195/135328315-faa6a306-c5f0-463f-8196-c5f55423a811.png)
+ 
+Note that this nearly explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
   - Here, FFT trees of depth 4 beat several supposedly better learners.    
                                                                                                                       
-
+But we need to talk about bias in the search space.
