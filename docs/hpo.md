@@ -108,10 +108,6 @@ Warning: when dealing with more than 2 dimensions
 
 ## Hyperparameter Optimization: Random Search
 
-Every learner's performance  varies according to the trainin data.
-- Run 20 experiements, each time using 90% of the training data (picked at random), you will get a _wriggle_ (call it epsilon &epsilon; 
-
-<img src="https://camo.githubusercontent.com/123a3c476b56327442750f71c013596a4b379220c5dc83de213f58ddf340576f/68747470733a2f2f7777772e7265736561726368676174652e6e65742f70726f66696c652f5869616e672d4368656e2d32322f7075626c69636174696f6e2f3331393038383538372f6669677572652f666967332f41533a37313935333438383132363737313240313534383536313839323938302f5468652d726573756c742d6f662d53636f74742d4b6e6f74742d746573742d696e2d63726f73732d76616c69646174696f6e2d7363656e6172696f2e706e67" width=600>
 
 
 If we want near-optimal (as apposed to the-optimal) then a few random probes can be remarkably effective.
@@ -175,9 +171,29 @@ In summary,
 - In practice: [Villalobos-Arias et al.](https://dl.acm.org/doi/abs/10.1145/3475960.3475986) show that for effort estimation _n=60_
   samples does as well as anything else.
 
+ Note: this is the case of one goal. What about N goals?
+ 
+ ### Deb's Rule (Epsilon Dominaton)
+
+ Every learner's performance  varies according to the trainin data.
+- Run 20 experiements, each time using 90% of the training data (picked at random), you will get a _wriggle_ (call it epsilon &epsilon; 
+
+<img src="https://camo.githubusercontent.com/123a3c476b56327442750f71c013596a4b379220c5dc83de213f58ddf340576f/68747470733a2f2f7777772e7265736561726368676174652e6e65742f70726f66696c652f5869616e672d4368656e2d32322f7075626c69636174696f6e2f3331393038383538372f6669677572652f666967332f41533a37313935333438383132363737313240313534383536313839323938302f5468652d726573756c742d6f662d53636f74742d4b6e6f74742d746573742d696e2d63726f73732d76616c69646174696f6e2d7363656e6172696f2e706e67" width=600>
+
+ _Epsilon Domiantion_
+ 
+ - If the eprformance differs by less than #epsilon;, ignore those differences
+ 
+ ![image](https://user-images.githubusercontent.com/29195/135327076-a76b1b5e-f069-43ae-b675-be6fb18bb5cd.png)
+
+ Kalyanmoy Deb, Manikanth Mohan, and Shikhar Mishra. 2005. Evaluating the ϵ-Domination Based Multi-Objective Evolutionary Algorithm for a Quick Computation of Pareto-Optimal Solutions. Evol. Comput. 13, 4 (December 2005), 501–525. DOI:https://doi-org.prox.lib.ncsu.edu/10.1162/106365605774666895
+
+
 
  
 ### Timm's RUle
+
+We can compute &epsilon; as a function of learner _wriggle_.
  
 Returning to stats again, hypotheses tests at the 95% level say that
   -  things are _not_ distinguishable if they overlap by more tha 5% of their probability mass. 
@@ -206,14 +222,17 @@ Here are four trees that effectively sample across the two distnbutions:
 
 <img width=700 src="https://user-images.githubusercontent.com/29195/134373379-efd03cfa-3ca2-4928-936c-9f62710a3882.png">
                                                                                                                       
-Note that they throw themselves around the output space, effectively performing 16 random searchers. 
-                                                                                                                      
-- Look at the last line of
-                                                                                                                      the above table
-                                                                                                                      we note that an FFT tree of depth 4  
-                                                                                                                      (which generates 2<sup>4</sup>=16 
-  models) would be sufficient to be 95% confident that we can find things in a space that divides into distinguishable regions of size 0.2.
-- Which explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
+Note that they throw themselves around the output space, effectively performing 8 random searchers. 
+ 
+ For N=2 goals, how many randoms earcehrs are enough?
+ 
+ ![image](https://user-images.githubusercontent.com/29195/135328315-faa6a306-c5f0-463f-8196-c5f55423a811.png)
+ 
+Note that this nearly explains certain surprising [recent successes (see Figure 3)](https://arxiv.org/pdf/1803.05067.pdf#page=8)  software analytics  
   - Here, FFT trees of depth 4 beat several supposedly better learners.    
                                                                                                                       
+But we need to talk about bias in the search space.
+ 
+ ![image](https://user-images.githubusercontent.com/29195/135328621-6d94ff86-d28f-45cb-9d32-e7d453ca9ab3.png)
+
 
