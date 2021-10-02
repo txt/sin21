@@ -73,7 +73,8 @@ Well lets talk about that...</p>
       <strike><a href="docs/range.md">Discretize</a></strike>(<a href="https://ncsu.zoom.us/rec/share/0PJRGYoVKu9BCygzXEb7DJOLznSJz6gsmLnQMhf_D7r6Zwedm3lMg7SZSN-WgOwp.OaRonaO5LYzhTLiO">video</a>)<br>
      <strike> <a href="https://ncsu.zoom.us/rec/share/3LdTOjjmw1XWMDed7JVEdkhHKsxVQtpXz1ZBlIzoqC_wq5jjm6at9LZJP78YT8tt.5xue7TGzxVz1LLUK">Briefing,hw5</a></strike>(<a href="https://ncsu.zoom.us/rec/share/bPgZnvx53ukqIHJMUnVBtI14ppcQW9O4Hdo3oN41gJd8oi3LCL5ofHKBsFrjF1Gq.coFrpli7xasp9rnt">video</a>)   <br>
       <strike>  <a href="/docs/hpo.md">HPO</a></strike>(<a href="https://ncsu.zoom.us/rec/share/xROYvHQSiLyUp4pVvHSk_LgcnrlKZLA5cCB_HaTQeEND63G70iQArq0qy4KgPnyt.yTYf_12aLOxgpwCA">video</a>)<br>
-       <a href="/docs/SONYxplain.pdf">Metrics</a><br>
+       <strike><a href="/docs/SONYxplain.pdf">Metrics</a></strike><br>
+       <a href="https://ncsu.zoom.us/rec/share/uautUN8vDmIvSfRudfKeb9n9ni_gF_Slw6o7lk1YUxS9TOWGtZb-Uwdw6aDjpsry.KATFZwex9wQX7cws">Sept21 video</a><br>
      <a href="/docs/stats.md">Stats</a>
 </dd>
 </dl>
