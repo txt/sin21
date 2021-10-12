@@ -75,7 +75,7 @@ Well lets talk about that...</p>
       <strike>  <a href="/docs/hpo.md">HPO</a></strike>(<a href="https://ncsu.zoom.us/rec/share/xROYvHQSiLyUp4pVvHSk_LgcnrlKZLA5cCB_HaTQeEND63G70iQArq0qy4KgPnyt.yTYf_12aLOxgpwCA">video</a>)<br>
        <strike><a href="/docs/SONYxplain.pdf">Metrics</a></strike><br>
        <a href="https://ncsu.zoom.us/rec/share/uautUN8vDmIvSfRudfKeb9n9ni_gF_Slw6o7lk1YUxS9TOWGtZb-Uwdw6aDjpsry.KATFZwex9wQX7cws">Sept21 video</a><br>
-     <a href="/docs/stats.md">Stats</a>
+     <a href="/docs/stats.md">Stats</a>,<a href="https://ncsu.zoom.us/rec/share/Z0dEuqASFu1VejDQUGQFwu_9PhcZtaYy6hNr_lJZ1lxH2Fhghw0XbfrKLD9VsRrd.dddafhLrkjW-k-4H">video</a>
 </dd>
 </dl>
 
