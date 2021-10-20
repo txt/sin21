@@ -15,6 +15,29 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 # Explaining Explanation
 
+## Explanation and  Ethics
+
+"Models induced from data must be liable as liability will likely
+soon become a legal requirement.
+- "Article 22 of the General Data
+Protection Regulation (GDPR) sets out the rights and obligations
+of the use of automated decision making.
+- "Noticeably, it introduces
+the right of explanation by giving individuals the right to obtain
+an explanation of the inference/s automatically produced by a model,
+confront and challenge an associated recommendation, particularly
+when it might negatively affect an individual legally, financially,
+mentally or physically. "
+
+"By approving this GDPR article, the European
+Parliament attempted to tackle the problem related to the prop agation of potentially biased inferences to society, that a
+computational model might have learnt from biased and unbalanced
+data."
+
+So explanation and ethics are linked.
+
+Lets talk about theories of explanation.
+
 ## Background
 
 - Induction: (learn  where we can run) Give lots of examples of (premise,conclusion), make a  rule
@@ -25,7 +48,7 @@ video <a href="https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#
 
 <img src="https://www.researchgate.net/profile/Maarten-Kleinhans/publication/48326326/figure/fig1/AS:307400054722561@1450301292381/Fig-A1-The-relation-between-abduction-deduction-and-induction-Several-alternative.png">
 
-Abduction == "guessing"  and cusses can be  wrong
+Abduction == "guessing"  and guesses can be  wrong
 
 - Rule1: grass is  wet cause  it rained
 - Rule2: grass is wet cause of the  sprinkler
