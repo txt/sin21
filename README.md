@@ -75,7 +75,7 @@ Well lets talk about that...</p>
       <strike>  <a href="/docs/hpo.md">HPO</a></strike>(<a href="https://ncsu.zoom.us/rec/share/xROYvHQSiLyUp4pVvHSk_LgcnrlKZLA5cCB_HaTQeEND63G70iQArq0qy4KgPnyt.yTYf_12aLOxgpwCA">video</a>)<br>
        <strike><a href="/docs/SONYxplain.pdf">Metrics</a></strike><br>
        <a href="https://ncsu.zoom.us/rec/share/uautUN8vDmIvSfRudfKeb9n9ni_gF_Slw6o7lk1YUxS9TOWGtZb-Uwdw6aDjpsry.KATFZwex9wQX7cws">Sept21 video</a><br>
-     <a href="/docs/stats.md">Stats</a>
+     <a href="/docs/stats.md">Stats</a>,<a href="https://ncsu.zoom.us/rec/share/Z0dEuqASFu1VejDQUGQFwu_9PhcZtaYy6hNr_lJZ1lxH2Fhghw0XbfrKLD9VsRrd.dddafhLrkjW-k-4H">video</a>
 </dd>
 </dl>
 
@@ -93,7 +93,7 @@ Sep 15,&nbsp;<a href="/docs/hw4.md#homework4">hw4</a>,<a href="/docs/eg3.md">eg3
 Sep 22,&nbsp;<a href="/docs/hw5.md">hw5</a>,<a href="/docs/eg4.md">eg4</a></strike><br>
 Sep 29,&nbsp;<a href="/docs/hw6.md">hw6</a><br>
 Oct 06,&nbsp;<a href="/docs/hw7.md">hw7</a>,<a href="/docs/eg5.md">eg5</a><br>
-Oct 13,&nbsp;hw8,eg8<br>
+Oct 13,&nbsp;<a href="https://docs.google.com/document/d/1Ex1sBDN0Ne0UbEo9xJAfGl-aXzOMjIwNNBiyjpGsrbQ/edit?usp=sharing">hw8</a>,eg8<br>
 Oct 20,&nbsp;Mid-term<br>
 Nov 24,&nbsp;Presentations<br>
 Nov 26,&nbsp;Report<br>
