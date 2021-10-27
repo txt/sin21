@@ -96,9 +96,9 @@ Sep 29,&nbsp;<a href="/docs/hw6.md">hw6</a><br>
 Oct 06,&nbsp;<a href="/docs/hw7.md">hw7</a>,<a href="/docs/eg5.md">eg5</a><br>
 Oct 13,&nbsp;<a href="https://docs.google.com/document/d/1Ex1sBDN0Ne0UbEo9xJAfGl-aXzOMjIwNNBiyjpGsrbQ/edit?usp=sharing">hw8</a>,eg8<br>
 Oct 20,&nbsp;Mid-term<br>
-Nov 24,&nbsp;Presentations<br>
-Nov 26,&nbsp;Report<br>
-Nov 26,&nbsp;Commentary<br>
+Dec 5,&nbsp;Presentations<br>
+Dec 7,&nbsp;Report<br>
+Dec 7,&nbsp;Commentary<br>
 </td>
 </tr>
 
