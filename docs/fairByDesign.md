@@ -195,7 +195,19 @@ That is:
 E.g. 
 
 Just as we can adjust decision tree generate to enable fair-by-design, so too can we adjust other AI tools.  What would it mean to tinker with out kodels,
-watch for the assumptions that tinkering might generate, then explroe tthat assumptions space.
+watch for the assumptions that tinkering might generate, then explore that assumptions space.
+
+There are bayesian methods for that
+
+There are ASP methods for that
+
+There are prob.programming methods for that.
+
+### Answer Set programming
+
+For me: old old song in new new new tools
+
+- Abduction + optimization
 
 Welcome back to abduction.
 When reasoning about 
@@ -239,5 +251,21 @@ Here again, we are exploring some model and we find choices. Without any knowled
 
 
 - https://www.dropbox.com/s/yb5cekch9i8oy87/paper14.pdf?dl=0#page=7
+
+So what would Kewen's work mean for model-based logical reasoning? 
+- Welcome to [Answer set programming](hsolving.pdf}
+- Slides 511,512
+- SLides 513 (which, for me,  is abduction + optimization)
+- Slide 516: reasoning without keys (so I think we can supercharge ASP with keys)
+- Slides 517
+
+## Probabilistic Programming
+
+- Stan: variables don't have assignments, they have distributions
+  - e.g. https://mc-stan.org/docs/2_28/stan-users-guide/hierarchical-logistic-regression.html
+- Prob log: closer to ASP
+  - https://dtai.cs.kuleuven.be/problog/
+- And a rich combination of both
+  - http://proceedings.mlr.press/v103/cozman19a/cozman19a.pdf (see Figure1).
 
 
