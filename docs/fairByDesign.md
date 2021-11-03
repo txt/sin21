@@ -168,7 +168,7 @@ So we would split on outlook.
 ### Under the hood
 
 - https://github.com/txt/ase16/blob/master/src/ase.py#L989-L1039
-- For an explanation of lines 10014 to 1017, see 3.3 of http://robotics.stanford.edu/users/sahami/papers-dir/disc.pdf
+- For an explanation of lines 10014 to 1017, see 3.3 of http://robotics.stanford.edu/users/sahami/papers-dir/disc.pdf#page=4
   - Long story short, when recursively diving dividing numbers, they use information theory to guide termiantion
   - Note that this is a top-down approach (whereas my preferred discretizer is bottom=-up... so simpler termination). 
    - See http://menzies.us/keys/range.html#section-15
