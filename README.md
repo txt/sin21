@@ -78,7 +78,7 @@ Well lets talk about that...</p>
      <a href="/docs/stats.md">Stats</a>,<a href="https://ncsu.zoom.us/rec/share/Z0dEuqASFu1VejDQUGQFwu_9PhcZtaYy6hNr_lJZ1lxH2Fhghw0XbfrKLD9VsRrd.dddafhLrkjW-k-4H">video</a><br>
      <strike><a href="/docs/abduct.md">Decades of  xplain</a></strike>
      <a href="/docs/principles.md">Principles</a><br>
-     <a href="/docs/fairByDesign.md">Fair By Design</a>
+     <a href="/docs/fairByDesign.md">Fair By Design</a>&nbsp;(<a href="https://ncsu.zoom.us/rec/share/Cy_j9TxzUV21zklT6mvdFavh9_R_ZdxO-gX8yJJngCfNsq4HH0qGWXq1Oh5NX-j2.o22ysn_SZtuJ2FD6">video</a>)
 </dd>
 </dl>
 
