@@ -80,7 +80,7 @@ Well lets talk about that...</p>
      <a href="/docs/principles.md">Principles</a><br>
      <a href="/docs/fairByDesign.md">Fair By Design</a>&nbsp;(<a href="https://ncsu.zoom.us/rec/share/Cy_j9TxzUV21zklT6mvdFavh9_R_ZdxO-gX8yJJngCfNsq4HH0qGWXq1Oh5NX-j2.o22ysn_SZtuJ2FD6">video</a>)<br>
      <a href="https://ncsu.zoom.us/rec/share/LRXCg8Mb3-ZI_0NKHGzbGpaXPpLj5cmv6uHoCHQBvoU4B0dxhpGLpv36_j-UY3pd.2vvzhRvN42D_X3we">State.of.the.art</a><br>
-     <a href="https://ncsu.zoom.us/rec/share/Uyh4DqBe2xQU5a3kPgQFGjpOZCpJKp1U-Yeozy381AP-uNYzFs-2tkNDdwlgKzHk.kukqmYiKlmAVlKg">Presentations</a>
+     <a href="https://ncsu.zoom.us/rec/share/Uyh4DqBe2xQU5a3kPgQFGjpOZCpJKp1U-Yeozy381AP-uNYzFs-2tkNDdwlgKzHk.kukqmYiKlmAVlKg_">Presentations</a>
 </dd>
 </dl>
 
